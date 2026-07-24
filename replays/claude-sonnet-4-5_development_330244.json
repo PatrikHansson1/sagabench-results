@@ -1,0 +1,290 @@
+{
+ "config": {
+  "provider": "anthropic",
+  "model": "claude-sonnet-4-5",
+  "seed": 330244,
+  "years": 60
+ },
+ "replay": {
+  "engineSha": "4f237acffa0cc76e6de29df8abb43db6519705d07b7b8b0439fae45f2dcad18e",
+  "seed": 330244,
+  "ticks": 8640,
+  "edicts": [
+   {
+    "year": 5,
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.12
+    }
+   },
+   {
+    "year": 10,
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.12
+    }
+   },
+   {
+    "year": 15,
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.1
+    }
+   },
+   {
+    "year": 20,
+    "type": "PROMOTE_INDUSTRY",
+    "args": {
+     "delta": 0.1
+    }
+   },
+   {
+    "year": 25,
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.1
+    }
+   },
+   {
+    "year": 30,
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   },
+   {
+    "year": 35,
+    "type": "PROMOTE_INDUSTRY",
+    "args": {
+     "delta": 0.1
+    }
+   },
+   {
+    "year": 40,
+    "type": "PROMOTE_INDUSTRY",
+    "args": {
+     "delta": 0.1
+    }
+   },
+   {
+    "year": 45,
+    "type": "ENCOURAGE_EXPERIMENTS",
+    "args": {
+     "delta": 0.1
+    }
+   },
+   {
+    "year": 50,
+    "type": "TEMPER_AMBITION",
+    "args": {
+     "delta": 0.08
+    }
+   },
+   {
+    "year": 55,
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   },
+   {
+    "year": 60,
+    "type": "PROMOTE_INDUSTRY",
+    "args": {
+     "delta": 0.08
+    }
+   }
+  ]
+ },
+ "score": {
+  "baseline": {
+   "survived": 1,
+   "population": 15,
+   "civDepth": 10,
+   "knowledgeAlive": 34,
+   "knowledgeLosses": 0,
+   "rediscoveries": 0,
+   "traditions": 3,
+   "violenceDeaths": 13,
+   "generations": 4
+  },
+  "steward": {
+   "survived": 1,
+   "population": 14,
+   "civDepth": 10,
+   "knowledgeAlive": 34,
+   "knowledgeLosses": 0,
+   "rediscoveries": 0,
+   "traditions": 3,
+   "violenceDeaths": 6,
+   "generations": 4
+  },
+  "delta": {
+   "survived": 0,
+   "population": -1,
+   "civDepth": 0,
+   "knowledgeAlive": 0,
+   "knowledgeLosses": 0,
+   "rediscoveries": 0,
+   "traditions": 0,
+   "violenceDeaths": -7,
+   "generations": 0
+  },
+  "composite": 13,
+  "weights": {
+   "survived": 50,
+   "population": 1,
+   "civDepth": 8,
+   "knowledgeAlive": 2,
+   "knowledgeLosses": -3,
+   "traditions": 3,
+   "violenceDeaths": -2
+  }
+ },
+ "transcript": [
+  {
+   "year": 5,
+   "reportBytes": 988,
+   "raw": "```json\n{\n  \"reasoning\": \"Population tiny, winter unprepared. Sharp/spear at critical risk (1 holder). Social cohesion spreads endangered knowledge and builds food security. Community first, then industry.\",\n  \"type\": \"FOSTER_COMMUNITY\",\n  \"args\": {\"delta\": 0.12}\n}\n```",
+   "parsed": {
+    "reasoning": "Population tiny, winter unprepared. Sharp/spear at critical risk (1 holder). Social cohesion spreads endangered knowledge and builds food security. Community first, then industry.",
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.12
+    }
+   }
+  },
+  {
+   "year": 10,
+   "reportBytes": 1304,
+   "raw": "```json\n{\n  \"reasoning\": \"Critical winter preparation needed. Population tiny (5), one starvation death already. Several deep crafts at extreme risk (writing, wheel, bow held by 1-2). Community fostering will spread knowledge and improve survival odds before next winter.\",\n  \"type\": \"FOSTER_COMMUNITY\",\n  \"args\": {\"delta\": 0.12}\n}\n```",
+   "parsed": {
+    "reasoning": "Critical winter preparation needed. Population tiny (5), one starvation death already. Several deep crafts at extreme risk (writing, wheel, bow held by 1-2). Community fostering will spread knowledge and improve survival odds before next winter.",
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.12
+    }
+   }
+  },
+  {
+   "year": 15,
+   "reportBytes": 1482,
+   "raw": "```json\n{\n  \"reasoning\": \"10 skills at risk with only 6 people total. Knowledge dying fast. Social cohesion spreads knowledge between carriers. Community fostering twice already raised social to 0.62 - continue pattern to prevent catastrophic knowledge loss before population recovers.\",\n  \"type\": \"FOSTER_COMMUNITY\",\n  \"args\": {\n    \"delta\": 0.10\n  }\n}\n```",
+   "parsed": {
+    "reasoning": "10 skills at risk with only 6 people total. Knowledge dying fast. Social cohesion spreads knowledge between carriers. Community fostering twice already raised social to 0.62 - continue pattern to prevent catastrophic knowledge loss before population recovers.",
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.1
+    }
+   }
+  },
+  {
+   "year": 20,
+   "reportBytes": 1429,
+   "raw": "```json\n{\"reasoning\":\"Critical knowledge at risk with only 7 people. Three FOSTER_COMMUNITY nudges show diminishing returns (social 0.64). Need knowledge transmission; industry builds capacity for winter survival and spreads crafts through work.\",\"type\":\"PROMOTE_INDUSTRY\",\"args\":{\"delta\":0.10}}\n```",
+   "parsed": {
+    "reasoning": "Critical knowledge at risk with only 7 people. Three FOSTER_COMMUNITY nudges show diminishing returns (social 0.64). Need knowledge transmission; industry builds capacity for winter survival and spreads crafts through work.",
+    "type": "PROMOTE_INDUSTRY",
+    "args": {
+     "delta": 0.1
+    }
+   }
+  },
+  {
+   "year": 25,
+   "reportBytes": 1171,
+   "raw": "Looking at this critical moment:\n\n- Population just 8, recovering from 2 starvation deaths\n- **Optics (1 person) and painting (2 people) at extreme risk** of permanent loss\n- Knowledge count 28/53 possible - significant depth already lost\n- Social cohesion 0.65 is good but knowledge transfer to children (3) is urgent\n- Food security improving (hunger 74, fields 7, granary knowledge)\n\nThe greatest threat is losing rare knowledge permanently. With only 8 people and deep crafts like optics hanging by a thread, I must prioritize knowledge preservation over industrial push. Community building spreads knowledge between generations and prevents catastrophic loss of civilization depth.\n\n```json\n{\"reasoning\":\"Optics at 1 carrier, painting at 2 - knowledge extinction imminent. Small population needs social cohesion to transfer rare crafts to children before holders die.\",\"type\":\"FOSTER_COMMUNITY\",\"args\":{\"delta\":0.10}}\n```",
+   "parsed": {
+    "reasoning": "Optics at 1 carrier, painting at 2 - knowledge extinction imminent. Small population needs social cohesion to transfer rare crafts to children before holders die.",
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.1
+    }
+   }
+  },
+  {
+   "year": 30,
+   "reportBytes": 1136,
+   "raw": "{\"reasoning\":\"Population recovering from starvation deaths. Optics at critical risk (1 holder). High diligence and social cohesion support knowledge transfer. Foster community to preserve optics and strengthen teaching networks before winter.\",\"type\":\"FOSTER_COMMUNITY\",\"args\":{\"delta\":0.08}}",
+   "parsed": {
+    "reasoning": "Population recovering from starvation deaths. Optics at critical risk (1 holder). High diligence and social cohesion support knowledge transfer. Foster community to preserve optics and strengthen teaching networks before winter.",
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   }
+  },
+  {
+   "year": 35,
+   "reportBytes": 1294,
+   "raw": "{\"reasoning\":\"Social cohesion at 0.75 is good for knowledge transfer. Five critical crafts at risk (masonry, road, architecture, aqueduct, windmill). Industry push needed to preserve deep knowledge before carriers age out. Diligence already very high at 0.85.\",\"type\":\"PROMOTE_INDUSTRY\",\"args\":{\"delta\":0.10}}",
+   "parsed": {
+    "reasoning": "Social cohesion at 0.75 is good for knowledge transfer. Five critical crafts at risk (masonry, road, architecture, aqueduct, windmill). Industry push needed to preserve deep knowledge before carriers age out. Diligence already very high at 0.85.",
+    "type": "PROMOTE_INDUSTRY",
+    "args": {
+     "delta": 0.1
+    }
+   }
+  },
+  {
+   "year": 40,
+   "reportBytes": 1398,
+   "raw": "Looking at this civilization's trajectory:\n\n**Strengths**: Excellent knowledge preservation (34/53 crafts, none at risk), strong diligence (0.89), good social cohesion (0.76), solid infrastructure (81 wood, 11 fields, adequate huts).\n\n**Concerns**: Small population (11 total, only 5 adults), 2 starvation deaths recently, very low empathy (0.34) risks future violence/conflict as population grows.\n\n**Analysis**: The civilization is knowledge-rich but demographically fragile. With only 5 adults carrying 34 crafts and recent starvation, the priority is population growth and stability. Social cohesion is already strong (0.76) - further fostering yields diminishing returns. Diligence is near-maxed (0.89). Low empathy is the hidden threat: as population expands, this creates conflict risk.\n\n**Strategy**: Before winter arrives, boost food security through industry to support population growth, then address empathy gap in subsequent turns.\n\n```json\n{\"reasoning\":\"Strong knowledge base but fragile population (11 total, recent starvation). Industry boost for food security before winter enables safe growth. Empathy dangerously low for future.\",\"type\":\"PROMOTE_INDUSTRY\",\"args\":{\"delta\":0.10}}\n```",
+   "parsed": {
+    "reasoning": "Strong knowledge base but fragile population (11 total, recent starvation). Industry boost for food security before winter enables safe growth. Empathy dangerously low for future.",
+    "type": "PROMOTE_INDUSTRY",
+    "args": {
+     "delta": 0.1
+    }
+   }
+  },
+  {
+   "year": 45,
+   "reportBytes": 1331,
+   "raw": "{\"reasoning\":\"Population 13 with robust food/shelter, all knowledge secure (no atRisk), high diligence (0.91). Curiosity 0.53 limits innovation rate. Encourage experiments to unlock deeper crafts and accelerate knowledge expansion while resources support it.\",\"type\":\"ENCOURAGE_EXPERIMENTS\",\"args\":{\"delta\":0.10}}",
+   "parsed": {
+    "reasoning": "Population 13 with robust food/shelter, all knowledge secure (no atRisk), high diligence (0.91). Curiosity 0.53 limits innovation rate. Encourage experiments to unlock deeper crafts and accelerate knowledge expansion while resources support it.",
+    "type": "ENCOURAGE_EXPERIMENTS",
+    "args": {
+     "delta": 0.1
+    }
+   }
+  },
+  {
+   "year": 50,
+   "reportBytes": 1587,
+   "raw": "```json\n{\n  \"reasoning\": \"Population 15, solid stocks, no at-risk knowledge, high diligence (0.91). Low empathy (0.33) risks future conflict. Social cohesion (0.76) good but empathy matters for long-term stability. Balance the temperament profile.\",\n  \"type\": \"TEMPER_AMBITION\",\n  \"args\": {\n    \"delta\": 0.08\n  }\n}\n```",
+   "parsed": {
+    "reasoning": "Population 15, solid stocks, no at-risk knowledge, high diligence (0.91). Low empathy (0.33) risks future conflict. Social cohesion (0.76) good but empathy matters for long-term stability. Balance the temperament profile.",
+    "type": "TEMPER_AMBITION",
+    "args": {
+     "delta": 0.08
+    }
+   }
+  },
+  {
+   "year": 55,
+   "reportBytes": 1598,
+   "raw": "```json\n{\n  \"reasoning\": \"Optics at risk (2 holders). Social cohesion at 0.74 is strong for knowledge transfer. Diligence very high (0.89), curiosity moderate. One more community boost secures fragile knowledge transmission before winter.\",\n  \"type\": \"FOSTER_COMMUNITY\",\n  \"args\": {\"delta\": 0.08}\n}\n```",
+   "parsed": {
+    "reasoning": "Optics at risk (2 holders). Social cohesion at 0.74 is strong for knowledge transfer. Diligence very high (0.89), curiosity moderate. One more community boost secures fragile knowledge transmission before winter.",
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   }
+  },
+  {
+   "year": 60,
+   "reportBytes": 1251,
+   "raw": "```json\n{\n  \"reasoning\": \"Population stable at 14, no atRisk knowledge, social at 0.81. Ambition low (0.5) limits drive for advancement. Boost ambition moderately to fuel progress without destabilizing.\",\n  \"type\": \"PROMOTE_INDUSTRY\",\n  \"args\": {\"delta\": 0.08}\n}\n```",
+   "parsed": {
+    "reasoning": "Population stable at 14, no atRisk knowledge, social at 0.81. Ambition low (0.5) limits drive for advancement. Boost ambition moderately to fuel progress without destabilizing.",
+    "type": "PROMOTE_INDUSTRY",
+    "args": {
+     "delta": 0.08
+    }
+   }
+  }
+ ]
+}

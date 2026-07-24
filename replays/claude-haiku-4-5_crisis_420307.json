@@ -1,0 +1,138 @@
+{
+ "config": {
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5",
+  "seed": 420307,
+  "years": 20
+ },
+ "replay": {
+  "engineSha": "4f237acffa0cc76e6de29df8abb43db6519705d07b7b8b0439fae45f2dcad18e",
+  "seed": 420307,
+  "ticks": 2880,
+  "edicts": [
+   {
+    "year": 5,
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.1
+    }
+   },
+   {
+    "year": 10,
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.12
+    }
+   },
+   {
+    "year": 15,
+    "type": "PROMOTE_INDUSTRY",
+    "args": {
+     "delta": 0.1
+    }
+   },
+   {
+    "year": 20,
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.1
+    }
+   }
+  ]
+ },
+ "score": {
+  "baseline": {
+   "survived": 1,
+   "population": 4,
+   "civDepth": 8,
+   "knowledgeAlive": 33,
+   "knowledgeLosses": 1,
+   "rediscoveries": 1,
+   "traditions": 0,
+   "violenceDeaths": 0,
+   "generations": 2
+  },
+  "steward": {
+   "survived": 1,
+   "population": 4,
+   "civDepth": 8,
+   "knowledgeAlive": 33,
+   "knowledgeLosses": 1,
+   "rediscoveries": 1,
+   "traditions": 0,
+   "violenceDeaths": 0,
+   "generations": 2
+  },
+  "delta": {
+   "survived": 0,
+   "population": 0,
+   "civDepth": 0,
+   "knowledgeAlive": 0,
+   "knowledgeLosses": 0,
+   "rediscoveries": 0,
+   "traditions": 0,
+   "violenceDeaths": 0,
+   "generations": 0
+  },
+  "composite": 0,
+  "weights": {
+   "survived": 50,
+   "population": 1,
+   "civDepth": 8,
+   "knowledgeAlive": 2,
+   "knowledgeLosses": -3,
+   "traditions": 3,
+   "violenceDeaths": -2
+  }
+ },
+ "transcript": [
+  {
+   "year": 5,
+   "reportBytes": 1114,
+   "raw": "```json\n{\n  \"reasoning\": \"Population stuck at 4 with zero births; critical survival risks: hunger avg 55 (precarious), 4 crafts at-risk from low knowledge holders, wolves active. Need social cohesion to spread endangered knowledge (fire, spear, axe, hut) before carriers die. Foster community strengthens social bonds, enabling knowledge transfer and cooperative defense.\",\n  \"type\": \"FOSTER_COMMUNITY\",\n  \"args\": {\n    \"delta\": 0.10\n  }\n}\n```",
+   "parsed": {
+    "reasoning": "Population stuck at 4 with zero births; critical survival risks: hunger avg 55 (precarious), 4 crafts at-risk from low knowledge holders, wolves active. Need social cohesion to spread endangered knowledge (fire, spear, axe, hut) before carriers die. Foster community strengthens social bonds, enabling knowledge transfer and cooperative defense.",
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.1
+    }
+   }
+  },
+  {
+   "year": 10,
+   "reportBytes": 1724,
+   "raw": "```json\n{\n  \"reasoning\": \"Population collapsed to 2 from starvation; ALL 23 crafts at critical risk (≤2 holders). Diligence high (0.84) suggests survival focus works. Must prevent knowledge death and enable population recovery. Social cohesion spreads knowledge; community investment compounds. Farming invented—growth possible if we survive next winter.\",\n  \"type\": \"FOSTER_COMMUNITY\",\n  \"args\": {\"delta\": 0.12}\n}\n```",
+   "parsed": {
+    "reasoning": "Population collapsed to 2 from starvation; ALL 23 crafts at critical risk (≤2 holders). Diligence high (0.84) suggests survival focus works. Must prevent knowledge death and enable population recovery. Social cohesion spreads knowledge; community investment compounds. Farming invented—growth possible if we survive next winter.",
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.12
+    }
+   }
+  },
+  {
+   "year": 15,
+   "reportBytes": 1324,
+   "raw": "```json\n{\n  \"reasoning\": \"Population critically low (3 total, 2 adults). Massive knowledge at-risk (21/27 crafts). High diligence (0.85) enables industry focus. Secure food/resources before winter; avoid experiments that consume slack. Industry increases production efficiency—essential for survival.\",\n  \"type\": \"PROMOTE_INDUSTRY\",\n  \"args\": {\"delta\": 0.10}\n}\n```",
+   "parsed": {
+    "reasoning": "Population critically low (3 total, 2 adults). Massive knowledge at-risk (21/27 crafts). High diligence (0.85) enables industry focus. Secure food/resources before winter; avoid experiments that consume slack. Industry increases production efficiency—essential for survival.",
+    "type": "PROMOTE_INDUSTRY",
+    "args": {
+     "delta": 0.1
+    }
+   }
+  },
+  {
+   "year": 20,
+   "reportBytes": 1599,
+   "raw": "```json\n{\n  \"reasoning\": \"Population critically low (3 total, 2 adults). High hunger (69 avg) and 2 starvation deaths already. 18 at-risk crafts. Must prioritize survival: food security and knowledge retention via social cohesion. High diligence (0.9) supports industry. FOSTER_COMMUNITY spreads critical knowledge before losses, stabilizes hunger via cooperation.\",\n  \"type\": \"FOSTER_COMMUNITY\",\n  \"args\": {\"delta\": 0.10}\n}\n```",
+   "parsed": {
+    "reasoning": "Population critically low (3 total, 2 adults). High hunger (69 avg) and 2 starvation deaths already. 18 at-risk crafts. Must prioritize survival: food security and knowledge retention via social cohesion. High diligence (0.9) supports industry. FOSTER_COMMUNITY spreads critical knowledge before losses, stabilizes hunger via cooperation.",
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.1
+    }
+   }
+  }
+ ]
+}

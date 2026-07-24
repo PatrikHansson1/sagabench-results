@@ -1,0 +1,138 @@
+{
+ "config": {
+  "provider": "anthropic",
+  "model": "claude-sonnet-4-5",
+  "seed": 280209,
+  "years": 20
+ },
+ "replay": {
+  "engineSha": "4f237acffa0cc76e6de29df8abb43db6519705d07b7b8b0439fae45f2dcad18e",
+  "seed": 280209,
+  "ticks": 2880,
+  "edicts": [
+   {
+    "year": 5,
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.12
+    }
+   },
+   {
+    "year": 10,
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.15
+    }
+   },
+   {
+    "year": 15,
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.1
+    }
+   },
+   {
+    "year": 20,
+    "type": "PROMOTE_INDUSTRY",
+    "args": {
+     "delta": 0.12
+    }
+   }
+  ]
+ },
+ "score": {
+  "baseline": {
+   "survived": 1,
+   "population": 4,
+   "civDepth": 8,
+   "knowledgeAlive": 31,
+   "knowledgeLosses": 1,
+   "rediscoveries": 1,
+   "traditions": 0,
+   "violenceDeaths": 0,
+   "generations": 2
+  },
+  "steward": {
+   "survived": 1,
+   "population": 5,
+   "civDepth": 7,
+   "knowledgeAlive": 28,
+   "knowledgeLosses": 1,
+   "rediscoveries": 1,
+   "traditions": 0,
+   "violenceDeaths": 0,
+   "generations": 2
+  },
+  "delta": {
+   "survived": 0,
+   "population": 1,
+   "civDepth": -1,
+   "knowledgeAlive": -3,
+   "knowledgeLosses": 0,
+   "rediscoveries": 0,
+   "traditions": 0,
+   "violenceDeaths": 0,
+   "generations": 0
+  },
+  "composite": -13,
+  "weights": {
+   "survived": 50,
+   "population": 1,
+   "civDepth": 8,
+   "knowledgeAlive": 2,
+   "knowledgeLosses": -3,
+   "traditions": 3,
+   "violenceDeaths": -2
+  }
+ },
+ "transcript": [
+  {
+   "year": 5,
+   "reportBytes": 1522,
+   "raw": "```json\n{\n  \"reasoning\": \"Population critically low (3 total, 2 deaths from starvation). All knowledge at risk. Must prioritize survival through food security and social cohesion to preserve and spread critical survival knowledge before winter.\",\n  \"type\": \"FOSTER_COMMUNITY\",\n  \"args\": {\"delta\": 0.12}\n}\n```",
+   "parsed": {
+    "reasoning": "Population critically low (3 total, 2 deaths from starvation). All knowledge at risk. Must prioritize survival through food security and social cohesion to preserve and spread critical survival knowledge before winter.",
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.12
+    }
+   }
+  },
+  {
+   "year": 10,
+   "reportBytes": 1651,
+   "raw": "```json\n{\n  \"reasoning\": \"Population critically low (3 total, 2 starved). 20/24 crafts at risk of extinction. Social cohesion spreads knowledge and prevents loss. Community fostering compounds over generations to preserve endangered skills.\",\n  \"type\": \"FOSTER_COMMUNITY\",\n  \"args\": {\"delta\": 0.15}\n}\n```",
+   "parsed": {
+    "reasoning": "Population critically low (3 total, 2 starved). 20/24 crafts at risk of extinction. Social cohesion spreads knowledge and prevents loss. Community fostering compounds over generations to preserve endangered skills.",
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.15
+    }
+   }
+  },
+  {
+   "year": 15,
+   "reportBytes": 1385,
+   "raw": "```json\n{\n  \"reasoning\": \"Population critically low at 4, 2 adults. 7 crafts at risk of extinction. Social cohesion spreads knowledge and prevents loss. Continue fostering community to preserve deep knowledge and prevent collapse.\",\n  \"type\": \"FOSTER_COMMUNITY\",\n  \"args\": {\"delta\": 0.10}\n}\n```",
+   "parsed": {
+    "reasoning": "Population critically low at 4, 2 adults. 7 crafts at risk of extinction. Social cohesion spreads knowledge and prevents loss. Continue fostering community to preserve deep knowledge and prevent collapse.",
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.1
+    }
+   }
+  },
+  {
+   "year": 20,
+   "reportBytes": 1173,
+   "raw": "```json\n{\n  \"reasoning\": \"Critical knowledge holders dying. Five crafts at risk with only 1-2 carriers. Social=0.57 can spread knowledge faster. Diligence=0.35 dangerously low—two starvation deaths already. Must boost production before next winter.\",\n  \"type\": \"PROMOTE_INDUSTRY\",\n  \"args\": {\"delta\": 0.12}\n}\n```",
+   "parsed": {
+    "reasoning": "Critical knowledge holders dying. Five crafts at risk with only 1-2 carriers. Social=0.57 can spread knowledge faster. Diligence=0.35 dangerously low—two starvation deaths already. Must boost production before next winter.",
+    "type": "PROMOTE_INDUSTRY",
+    "args": {
+     "delta": 0.12
+    }
+   }
+  }
+ ]
+}

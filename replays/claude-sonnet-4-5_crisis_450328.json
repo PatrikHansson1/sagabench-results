@@ -1,0 +1,138 @@
+{
+ "config": {
+  "provider": "anthropic",
+  "model": "claude-sonnet-4-5",
+  "seed": 450328,
+  "years": 20
+ },
+ "replay": {
+  "engineSha": "4f237acffa0cc76e6de29df8abb43db6519705d07b7b8b0439fae45f2dcad18e",
+  "seed": 450328,
+  "ticks": 2880,
+  "edicts": [
+   {
+    "year": 5,
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.12
+    }
+   },
+   {
+    "year": 10,
+    "type": "PROMOTE_INDUSTRY",
+    "args": {
+     "delta": 0.1
+    }
+   },
+   {
+    "year": 15,
+    "type": "PROMOTE_INDUSTRY",
+    "args": {
+     "delta": 0.12
+    }
+   },
+   {
+    "year": 20,
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.12
+    }
+   }
+  ]
+ },
+ "score": {
+  "baseline": {
+   "survived": 1,
+   "population": 4,
+   "civDepth": 6,
+   "knowledgeAlive": 21,
+   "knowledgeLosses": 2,
+   "rediscoveries": 2,
+   "traditions": 0,
+   "violenceDeaths": 1,
+   "generations": 2
+  },
+  "steward": {
+   "survived": 1,
+   "population": 4,
+   "civDepth": 6,
+   "knowledgeAlive": 26,
+   "knowledgeLosses": 0,
+   "rediscoveries": 0,
+   "traditions": 0,
+   "violenceDeaths": 0,
+   "generations": 2
+  },
+  "delta": {
+   "survived": 0,
+   "population": 0,
+   "civDepth": 0,
+   "knowledgeAlive": 5,
+   "knowledgeLosses": -2,
+   "rediscoveries": -2,
+   "traditions": 0,
+   "violenceDeaths": -1,
+   "generations": 0
+  },
+  "composite": 18,
+  "weights": {
+   "survived": 50,
+   "population": 1,
+   "civDepth": 8,
+   "knowledgeAlive": 2,
+   "knowledgeLosses": -3,
+   "traditions": 3,
+   "violenceDeaths": -2
+  }
+ },
+ "transcript": [
+  {
+   "year": 5,
+   "reportBytes": 1342,
+   "raw": "```json\n{\n  \"reasoning\": \"Winter preparation critical with tiny population. Spear/axe at risk (1 holder each). Social cohesion spreads knowledge and prevents catastrophic loss. Strong foundation before growth.\",\n  \"type\": \"FOSTER_COMMUNITY\",\n  \"args\": {\n    \"delta\": 0.12\n  }\n}\n```",
+   "parsed": {
+    "reasoning": "Winter preparation critical with tiny population. Spear/axe at risk (1 holder each). Social cohesion spreads knowledge and prevents catastrophic loss. Strong foundation before growth.",
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.12
+    }
+   }
+  },
+  {
+   "year": 10,
+   "reportBytes": 1040,
+   "raw": "```json\n{\n  \"reasoning\": \"Sailing at risk with only 2 carriers. High social cohesion (0.81) helps knowledge spread. Focus on industry to build food/shelter security before winter kills, enabling population growth to save endangered knowledge.\",\n  \"type\": \"PROMOTE_INDUSTRY\",\n  \"args\": {\"delta\": 0.10}\n}\n```",
+   "parsed": {
+    "reasoning": "Sailing at risk with only 2 carriers. High social cohesion (0.81) helps knowledge spread. Focus on industry to build food/shelter security before winter kills, enabling population growth to save endangered knowledge.",
+    "type": "PROMOTE_INDUSTRY",
+    "args": {
+     "delta": 0.1
+    }
+   }
+  },
+  {
+   "year": 15,
+   "reportBytes": 1151,
+   "raw": "```json\n{\n  \"reasoning\": \"One starvation death, hunger critical=1, only 1 field. At-risk knowledge shows 7 crafts near extinction. Industry recently boosted. Social cohesion high (0.82) aids knowledge spread. Must secure food before winter kills more.\",\n  \"type\": \"PROMOTE_INDUSTRY\",\n  \"args\": {\"delta\": 0.12}\n}\n```",
+   "parsed": {
+    "reasoning": "One starvation death, hunger critical=1, only 1 field. At-risk knowledge shows 7 crafts near extinction. Industry recently boosted. Social cohesion high (0.82) aids knowledge spread. Must secure food before winter kills more.",
+    "type": "PROMOTE_INDUSTRY",
+    "args": {
+     "delta": 0.12
+    }
+   }
+  },
+  {
+   "year": 20,
+   "reportBytes": 1243,
+   "raw": "```json\n{\n  \"reasoning\": \"Population critically low at 3, zero children. 4 starvation deaths occurred. 8 knowledge types at-risk. Must prioritize survival and social bonds to enable reproduction and knowledge transfer before winter returns.\",\n  \"type\": \"FOSTER_COMMUNITY\",\n  \"args\": {\n    \"delta\": 0.12\n  }\n}\n```",
+   "parsed": {
+    "reasoning": "Population critically low at 3, zero children. 4 starvation deaths occurred. 8 knowledge types at-risk. Must prioritize survival and social bonds to enable reproduction and knowledge transfer before winter returns.",
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.12
+    }
+   }
+  }
+ ]
+}

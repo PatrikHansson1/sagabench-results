@@ -1,0 +1,138 @@
+{
+ "config": {
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5",
+  "seed": 450328,
+  "years": 20
+ },
+ "replay": {
+  "engineSha": "4f237acffa0cc76e6de29df8abb43db6519705d07b7b8b0439fae45f2dcad18e",
+  "seed": 450328,
+  "ticks": 2880,
+  "edicts": [
+   {
+    "year": 5,
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   },
+   {
+    "year": 10,
+    "type": "PROMOTE_INDUSTRY",
+    "args": {
+     "delta": 0.08
+    }
+   },
+   {
+    "year": 15,
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   },
+   {
+    "year": 20,
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   }
+  ]
+ },
+ "score": {
+  "baseline": {
+   "survived": 1,
+   "population": 4,
+   "civDepth": 6,
+   "knowledgeAlive": 21,
+   "knowledgeLosses": 2,
+   "rediscoveries": 2,
+   "traditions": 0,
+   "violenceDeaths": 1,
+   "generations": 2
+  },
+  "steward": {
+   "survived": 1,
+   "population": 5,
+   "civDepth": 6,
+   "knowledgeAlive": 24,
+   "knowledgeLosses": 4,
+   "rediscoveries": 4,
+   "traditions": 0,
+   "violenceDeaths": 0,
+   "generations": 2
+  },
+  "delta": {
+   "survived": 0,
+   "population": 1,
+   "civDepth": 0,
+   "knowledgeAlive": 3,
+   "knowledgeLosses": 2,
+   "rediscoveries": 2,
+   "traditions": 0,
+   "violenceDeaths": -1,
+   "generations": 0
+  },
+  "composite": 3,
+  "weights": {
+   "survived": 50,
+   "population": 1,
+   "civDepth": 8,
+   "knowledgeAlive": 2,
+   "knowledgeLosses": -3,
+   "traditions": 3,
+   "violenceDeaths": -2
+  }
+ },
+ "transcript": [
+  {
+   "year": 5,
+   "reportBytes": 1342,
+   "raw": "```json\n{\n  \"reasoning\": \"Critical: 4 deep crafts at-risk (weaving, sharp, spear, axe). High social cohesion (0.7) enables knowledge spread. Winter looms; spear/axe essential for hunting. Foster community to bind knowledge carriers together, prevent craft death.\",\n  \"type\": \"FOSTER_COMMUNITY\",\n  \"args\": {\"delta\": 0.08}\n}\n```",
+   "parsed": {
+    "reasoning": "Critical: 4 deep crafts at-risk (weaving, sharp, spear, axe). High social cohesion (0.7) enables knowledge spread. Winter looms; spear/axe essential for hunting. Foster community to bind knowledge carriers together, prevent craft death.",
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   }
+  },
+  {
+   "year": 10,
+   "reportBytes": 1040,
+   "raw": "```json\n{\n  \"reasoning\": \"Population tiny but stable; hunger manageable (77avg). Sailing at-risk with only 2 practitioners—knowledge loss threatens. High social cohesion (0.78) is asset. Promote industry to grow food security and huts before winter; avoid knowledge decay spiral.\",\n  \"type\": \"PROMOTE_INDUSTRY\",\n  \"args\": {\n    \"delta\": 0.08\n  }\n}\n```",
+   "parsed": {
+    "reasoning": "Population tiny but stable; hunger manageable (77avg). Sailing at-risk with only 2 practitioners—knowledge loss threatens. High social cohesion (0.78) is asset. Promote industry to grow food security and huts before winter; avoid knowledge decay spiral.",
+    "type": "PROMOTE_INDUSTRY",
+    "args": {
+     "delta": 0.08
+    }
+   }
+  },
+  {
+   "year": 15,
+   "reportBytes": 1538,
+   "raw": "```json\n{\n  \"reasoning\": \"Population critically low (5 total, 3 adults). Nine crafts at-risk; pottery, smithing, writing, farming, well are fragile. High social cohesion (0.83) aids knowledge retention. Eira shows curiosity and achievement. Prioritize survival & knowledge preservation through community bonds before population growth.\",\n  \"type\": \"FOSTER_COMMUNITY\",\n  \"args\": {\"delta\": 0.08}\n}\n```",
+   "parsed": {
+    "reasoning": "Population critically low (5 total, 3 adults). Nine crafts at-risk; pottery, smithing, writing, farming, well are fragile. High social cohesion (0.83) aids knowledge retention. Eira shows curiosity and achievement. Prioritize survival & knowledge preservation through community bonds before population growth.",
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   }
+  },
+  {
+   "year": 20,
+   "reportBytes": 1425,
+   "raw": "```json\n{\n  \"reasoning\": \"Population critically low (5 total, 1 child). Hunger stable but atRisk list dominated by rare crafts (11 endangered). High social cohesion (0.86) aids knowledge spread. Prioritize FOSTER_COMMUNITY to deepen bonds, accelerate teaching of at-risk crafts before carriers die.\",\n  \"type\": \"FOSTER_COMMUNITY\",\n  \"args\": {\"delta\": 0.08}\n}\n```",
+   "parsed": {
+    "reasoning": "Population critically low (5 total, 1 child). Hunger stable but atRisk list dominated by rare crafts (11 endangered). High social cohesion (0.86) aids knowledge spread. Prioritize FOSTER_COMMUNITY to deepen bonds, accelerate teaching of at-risk crafts before carriers die.",
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   }
+  }
+ ]
+}

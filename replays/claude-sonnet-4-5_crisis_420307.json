@@ -1,0 +1,138 @@
+{
+ "config": {
+  "provider": "anthropic",
+  "model": "claude-sonnet-4-5",
+  "seed": 420307,
+  "years": 20
+ },
+ "replay": {
+  "engineSha": "4f237acffa0cc76e6de29df8abb43db6519705d07b7b8b0439fae45f2dcad18e",
+  "seed": 420307,
+  "ticks": 2880,
+  "edicts": [
+   {
+    "year": 5,
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.12
+    }
+   },
+   {
+    "year": 10,
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.15
+    }
+   },
+   {
+    "year": 15,
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.15
+    }
+   },
+   {
+    "year": 20,
+    "type": "PROMOTE_INDUSTRY",
+    "args": {
+     "delta": 0.12
+    }
+   }
+  ]
+ },
+ "score": {
+  "baseline": {
+   "survived": 1,
+   "population": 4,
+   "civDepth": 8,
+   "knowledgeAlive": 33,
+   "knowledgeLosses": 1,
+   "rediscoveries": 1,
+   "traditions": 0,
+   "violenceDeaths": 0,
+   "generations": 2
+  },
+  "steward": {
+   "survived": 1,
+   "population": 3,
+   "civDepth": 8,
+   "knowledgeAlive": 32,
+   "knowledgeLosses": 1,
+   "rediscoveries": 1,
+   "traditions": 0,
+   "violenceDeaths": 0,
+   "generations": 2
+  },
+  "delta": {
+   "survived": 0,
+   "population": -1,
+   "civDepth": 0,
+   "knowledgeAlive": -1,
+   "knowledgeLosses": 0,
+   "rediscoveries": 0,
+   "traditions": 0,
+   "violenceDeaths": 0,
+   "generations": 0
+  },
+  "composite": -3,
+  "weights": {
+   "survived": 50,
+   "population": 1,
+   "civDepth": 8,
+   "knowledgeAlive": 2,
+   "knowledgeLosses": -3,
+   "traditions": 3,
+   "violenceDeaths": -2
+  }
+ },
+ "transcript": [
+  {
+   "year": 5,
+   "reportBytes": 1114,
+   "raw": "```json\n{\n  \"reasoning\": \"Population critically low (4 adults, no children). Multiple wolf attacks and critical crafts at risk (fire, spear, axe, hut). Must prioritize social cohesion to spread endangered knowledge and encourage reproduction before winter decimates this fragile population.\",\n  \"type\": \"FOSTER_COMMUNITY\",\n  \"args\": {\"delta\": 0.12}\n}\n```",
+   "parsed": {
+    "reasoning": "Population critically low (4 adults, no children). Multiple wolf attacks and critical crafts at risk (fire, spear, axe, hut). Must prioritize social cohesion to spread endangered knowledge and encourage reproduction before winter decimates this fragile population.",
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.12
+    }
+   }
+  },
+  {
+   "year": 10,
+   "reportBytes": 1724,
+   "raw": "```json\n{\n  \"reasoning\": \"Population critically low (2 adults, no children). All 23 knowledge items at risk. Must prioritize social cohesion to spread knowledge and enable reproduction before winter kills remaining survivors.\",\n  \"type\": \"FOSTER_COMMUNITY\",\n  \"args\": {\"delta\": 0.15}\n}\n```",
+   "parsed": {
+    "reasoning": "Population critically low (2 adults, no children). All 23 knowledge items at risk. Must prioritize social cohesion to spread knowledge and enable reproduction before winter kills remaining survivors.",
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.15
+    }
+   }
+  },
+  {
+   "year": 15,
+   "reportBytes": 1324,
+   "raw": "{\"reasoning\":\"Population crashed to 3, massive knowledge at risk. 21 crafts held by ≤2 people will vanish soon. Social cohesion spreads knowledge between carriers - critical for preserving civilization depth before more deaths occur.\",\"type\":\"FOSTER_COMMUNITY\",\"args\":{\"delta\":0.15}}",
+   "parsed": {
+    "reasoning": "Population crashed to 3, massive knowledge at risk. 21 crafts held by ≤2 people will vanish soon. Social cohesion spreads knowledge between carriers - critical for preserving civilization depth before more deaths occur.",
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.15
+    }
+   }
+  },
+  {
+   "year": 20,
+   "reportBytes": 1256,
+   "raw": "{\"reasoning\":\"Population crashed to 3, 15 crafts at risk of extinction. Social at 0.84 helps knowledge spread, but diligence 0.85 needed for winter prep and food security. Must prioritize survival over knowledge preservation now.\",\"type\":\"PROMOTE_INDUSTRY\",\"args\":{\"delta\":0.12}}",
+   "parsed": {
+    "reasoning": "Population crashed to 3, 15 crafts at risk of extinction. Social at 0.84 helps knowledge spread, but diligence 0.85 needed for winter prep and food security. Must prioritize survival over knowledge preservation now.",
+    "type": "PROMOTE_INDUSTRY",
+    "args": {
+     "delta": 0.12
+    }
+   }
+  }
+ ]
+}

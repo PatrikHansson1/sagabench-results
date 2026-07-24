@@ -1,0 +1,176 @@
+{
+ "config": {
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5",
+  "seed": 97013,
+  "years": 30
+ },
+ "replay": {
+  "engineSha": "4f237acffa0cc76e6de29df8abb43db6519705d07b7b8b0439fae45f2dcad18e",
+  "seed": 97013,
+  "ticks": 4320,
+  "edicts": [
+   {
+    "year": 5,
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   },
+   {
+    "year": 10,
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.09
+    }
+   },
+   {
+    "year": 15,
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   },
+   {
+    "year": 20,
+    "type": "ENCOURAGE_EXPERIMENTS",
+    "args": {
+     "delta": 0.08
+    }
+   },
+   {
+    "year": 25,
+    "type": "ENCOURAGE_EXPERIMENTS",
+    "args": {
+     "delta": 0.08
+    }
+   },
+   {
+    "year": 30,
+    "type": "PROMOTE_INDUSTRY",
+    "args": {
+     "delta": 0.08
+    }
+   }
+  ]
+ },
+ "score": {
+  "baseline": {
+   "survived": 1,
+   "population": 11,
+   "civDepth": 8,
+   "knowledgeAlive": 34,
+   "knowledgeLosses": 0,
+   "rediscoveries": 0,
+   "traditions": 0,
+   "violenceDeaths": 0,
+   "generations": 3
+  },
+  "steward": {
+   "survived": 1,
+   "population": 11,
+   "civDepth": 10,
+   "knowledgeAlive": 34,
+   "knowledgeLosses": 0,
+   "rediscoveries": 0,
+   "traditions": 1,
+   "violenceDeaths": 0,
+   "generations": 3
+  },
+  "delta": {
+   "survived": 0,
+   "population": 0,
+   "civDepth": 2,
+   "knowledgeAlive": 0,
+   "knowledgeLosses": 0,
+   "rediscoveries": 0,
+   "traditions": 1,
+   "violenceDeaths": 0,
+   "generations": 0
+  },
+  "composite": 19,
+  "weights": {
+   "survived": 50,
+   "population": 1,
+   "civDepth": 8,
+   "knowledgeAlive": 2,
+   "knowledgeLosses": -3,
+   "traditions": 3,
+   "violenceDeaths": -2
+  }
+ },
+ "transcript": [
+  {
+   "year": 5,
+   "reportBytes": 672,
+   "raw": "```json\n{\n  \"reasoning\": \"Population tiny (5), but stable with births. Knowledge critically low (2/53). Hunger manageable (55 avg). Social cohesion (0.45) is bottleneck for knowledge spread. Boost community to anchor storytelling/fire craft and enable faster knowledge transmission before winter.\",\n  \"type\": \"FOSTER_COMMUNITY\",\n  \"args\": {\"delta\": 0.08}\n}\n```",
+   "parsed": {
+    "reasoning": "Population tiny (5), but stable with births. Knowledge critically low (2/53). Hunger manageable (55 avg). Social cohesion (0.45) is bottleneck for knowledge spread. Boost community to anchor storytelling/fire craft and enable faster knowledge transmission before winter.",
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   }
+  },
+  {
+   "year": 10,
+   "reportBytes": 1353,
+   "raw": "```json\n{\n  \"reasoning\": \"Five at-risk crafts (pottery, writing, philosophy, kiln, smithing) threaten deep knowledge loss. High curiosity (0.74) drives invention but risks accidents. Social cohesion (0.52) is weak—spreading knowledge requires stronger community bonds. Foster community to stabilize knowledge carriers and enable cultural depth before winter stress.\",\n  \"type\": \"FOSTER_COMMUNITY\",\n  \"args\": {\n    \"delta\": 0.09\n  }\n}\n```",
+   "parsed": {
+    "reasoning": "Five at-risk crafts (pottery, writing, philosophy, kiln, smithing) threaten deep knowledge loss. High curiosity (0.74) drives invention but risks accidents. Social cohesion (0.52) is weak—spreading knowledge requires stronger community bonds. Foster community to stabilize knowledge carriers and enable cultural depth before winter stress.",
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.09
+    }
+   }
+  },
+  {
+   "year": 15,
+   "reportBytes": 1642,
+   "raw": "```json\n{\n  \"reasoning\": \"Nine crafts at critical risk (held by ≤2 people). Social cohesion is mid-range (0.58); strengthening it spreads knowledge and prevents craft extinction. Winter survival stable; population young and growing. Community focus preserves living knowledge while supporting population resilience.\",\n  \"type\": \"FOSTER_COMMUNITY\",\n  \"args\": {\"delta\": 0.08}\n}\n```",
+   "parsed": {
+    "reasoning": "Nine crafts at critical risk (held by ≤2 people). Social cohesion is mid-range (0.58); strengthening it spreads knowledge and prevents craft extinction. Winter survival stable; population young and growing. Community focus preserves living knowledge while supporting population resilience.",
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   }
+  },
+  {
+   "year": 20,
+   "reportBytes": 1538,
+   "raw": "```json\n{\n  \"reasoning\": \"Population small but stable; hunger safe. Four at-risk crafts (optics, mill, masonry, road) held by few. Social cohesion 0.66 is strong but curiosity 0.76 drives invention. Boost experiments to capitalize on momentum and solidify emerging knowledge before carriers age.\",\n  \"type\": \"ENCOURAGE_EXPERIMENTS\",\n  \"args\": {\"delta\": 0.08}\n}\n```",
+   "parsed": {
+    "reasoning": "Population small but stable; hunger safe. Four at-risk crafts (optics, mill, masonry, road) held by few. Social cohesion 0.66 is strong but curiosity 0.76 drives invention. Boost experiments to capitalize on momentum and solidify emerging knowledge before carriers age.",
+    "type": "ENCOURAGE_EXPERIMENTS",
+    "args": {
+     "delta": 0.08
+    }
+   }
+  },
+  {
+   "year": 25,
+   "reportBytes": 1567,
+   "raw": "```json\n{\n  \"reasoning\": \"Population stable at 9 with positive births. Five crafts at-risk (masonry, architecture, aqueduct, painting, temple) — deep knowledge dying. Curiosity high (0.81); social cohesion good (0.65). ENCOURAGE_EXPERIMENTS will deepen rare crafts and sustain innovation momentum. Food secure, no crises.\",\n  \"type\": \"ENCOURAGE_EXPERIMENTS\",\n  \"args\": {\"delta\": 0.08}\n}\n```",
+   "parsed": {
+    "reasoning": "Population stable at 9 with positive births. Five crafts at-risk (masonry, architecture, aqueduct, painting, temple) — deep knowledge dying. Curiosity high (0.81); social cohesion good (0.65). ENCOURAGE_EXPERIMENTS will deepen rare crafts and sustain innovation momentum. Food secure, no crises.",
+    "type": "ENCOURAGE_EXPERIMENTS",
+    "args": {
+     "delta": 0.08
+    }
+   }
+  },
+  {
+   "year": 30,
+   "reportBytes": 1277,
+   "raw": "```json\n{\n  \"reasoning\": \"Windmill at critical risk (1 holder). High curiosity (0.85) already drives experiments well. Community is solid (social 0.67). Promote industry to stabilize knowledge carriers through craft depth, secure food surplus before next winter.\",\n  \"type\": \"PROMOTE_INDUSTRY\",\n  \"args\": {\"delta\": 0.08}\n}\n```",
+   "parsed": {
+    "reasoning": "Windmill at critical risk (1 holder). High curiosity (0.85) already drives experiments well. Community is solid (social 0.67). Promote industry to stabilize knowledge carriers through craft depth, secure food surplus before next winter.",
+    "type": "PROMOTE_INDUSTRY",
+    "args": {
+     "delta": 0.08
+    }
+   }
+  }
+ ]
+}

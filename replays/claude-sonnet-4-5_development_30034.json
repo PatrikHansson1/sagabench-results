@@ -1,0 +1,290 @@
+{
+ "config": {
+  "provider": "anthropic",
+  "model": "claude-sonnet-4-5",
+  "seed": 30034,
+  "years": 60
+ },
+ "replay": {
+  "engineSha": "4f237acffa0cc76e6de29df8abb43db6519705d07b7b8b0439fae45f2dcad18e",
+  "seed": 30034,
+  "ticks": 8640,
+  "edicts": [
+   {
+    "year": 5,
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.12
+    }
+   },
+   {
+    "year": 10,
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.12
+    }
+   },
+   {
+    "year": 15,
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   },
+   {
+    "year": 20,
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.1
+    }
+   },
+   {
+    "year": 25,
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.12
+    }
+   },
+   {
+    "year": 30,
+    "type": "PROMOTE_INDUSTRY",
+    "args": {
+     "delta": 0.1
+    }
+   },
+   {
+    "year": 35,
+    "type": "TEMPER_AMBITION",
+    "args": {
+     "delta": 0.1
+    }
+   },
+   {
+    "year": 40,
+    "type": "PROMOTE_INDUSTRY",
+    "args": {
+     "delta": 0.1
+    }
+   },
+   {
+    "year": 45,
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.1
+    }
+   },
+   {
+    "year": 50,
+    "type": "PROMOTE_INDUSTRY",
+    "args": {
+     "delta": 0.08
+    }
+   },
+   {
+    "year": 55,
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   },
+   {
+    "year": 60,
+    "type": "PROMOTE_INDUSTRY",
+    "args": {
+     "delta": 0.08
+    }
+   }
+  ]
+ },
+ "score": {
+  "baseline": {
+   "survived": 1,
+   "population": 14,
+   "civDepth": 10,
+   "knowledgeAlive": 34,
+   "knowledgeLosses": 1,
+   "rediscoveries": 1,
+   "traditions": 2,
+   "violenceDeaths": 16,
+   "generations": 4
+  },
+  "steward": {
+   "survived": 1,
+   "population": 22,
+   "civDepth": 9,
+   "knowledgeAlive": 31,
+   "knowledgeLosses": 4,
+   "rediscoveries": 1,
+   "traditions": 0,
+   "violenceDeaths": 26,
+   "generations": 5
+  },
+  "delta": {
+   "survived": 0,
+   "population": 8,
+   "civDepth": -1,
+   "knowledgeAlive": -3,
+   "knowledgeLosses": 3,
+   "rediscoveries": 0,
+   "traditions": -2,
+   "violenceDeaths": 10,
+   "generations": 1
+  },
+  "composite": -41,
+  "weights": {
+   "survived": 50,
+   "population": 1,
+   "civDepth": 8,
+   "knowledgeAlive": 2,
+   "knowledgeLosses": -3,
+   "traditions": 3,
+   "violenceDeaths": -2
+  }
+ },
+ "transcript": [
+  {
+   "year": 5,
+   "reportBytes": 2042,
+   "raw": "```json\n{\n  \"reasoning\": \"Population tiny (6), many critical knowledge items at risk of dying out. Low social score (0.39) means knowledge spreads poorly. Fostering community will help preserve endangered crafts and strengthen survival.\",\n  \"type\": \"FOSTER_COMMUNITY\",\n  \"args\": {\"delta\": 0.12}\n}\n```",
+   "parsed": {
+    "reasoning": "Population tiny (6), many critical knowledge items at risk of dying out. Low social score (0.39) means knowledge spreads poorly. Fostering community will help preserve endangered crafts and strengthen survival.",
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.12
+    }
+   }
+  },
+  {
+   "year": 10,
+   "reportBytes": 1212,
+   "raw": "```json\n{\n  \"reasoning\": \"10 critical crafts at risk with only 7 adults. Violence erupted (Torv attacked Eira). Social cohesion spreads knowledge and reduces conflict. Must prioritize knowledge preservation and reduce violence before winter losses compound.\",\n  \"type\": \"FOSTER_COMMUNITY\",\n  \"args\": {\"delta\": 0.12}\n}\n```",
+   "parsed": {
+    "reasoning": "10 critical crafts at risk with only 7 adults. Violence erupted (Torv attacked Eira). Social cohesion spreads knowledge and reduces conflict. Must prioritize knowledge preservation and reduce violence before winter losses compound.",
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.12
+    }
+   }
+  },
+  {
+   "year": 15,
+   "reportBytes": 1447,
+   "raw": "{\"reasoning\":\"At-risk knowledge includes masonry, road, architecture, aqueduct, temple - all held by 1-2 people. Social cohesion spreads knowledge. Two prior community boosts show effect (social 0.55). Continue strengthening knowledge transfer before winter threatens population.\",\"type\":\"FOSTER_COMMUNITY\",\"args\":{\"delta\":0.08}}",
+   "parsed": {
+    "reasoning": "At-risk knowledge includes masonry, road, architecture, aqueduct, temple - all held by 1-2 people. Social cohesion spreads knowledge. Two prior community boosts show effect (social 0.55). Continue strengthening knowledge transfer before winter threatens population.",
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   }
+  },
+  {
+   "year": 20,
+   "reportBytes": 1315,
+   "raw": "{\"reasoning\":\"Writing, road, aqueduct, temple all at-risk with <=2 carriers. Three FOSTER_COMMUNITY edicts raised social to 0.59. Continue spreading knowledge before winter losses claim rare crafts. Community prevents knowledge death.\",\"type\":\"FOSTER_COMMUNITY\",\"args\":{\"delta\":0.10}}",
+   "parsed": {
+    "reasoning": "Writing, road, aqueduct, temple all at-risk with <=2 carriers. Three FOSTER_COMMUNITY edicts raised social to 0.59. Continue spreading knowledge before winter losses claim rare crafts. Community prevents knowledge death.",
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.1
+    }
+   }
+  },
+  {
+   "year": 25,
+   "reportBytes": 1830,
+   "raw": "```json\n{\n  \"reasoning\": \"Writing at critical risk (only 2 carriers). Four community boosts have saturated social cohesion at 0.65. Need knowledge preservation urgently. Community investment pays off now—switch focus to secure fragile knowledge transmission.\",\n  \"type\": \"FOSTER_COMMUNITY\",\n  \"args\": {\n    \"delta\": 0.12\n  }\n}\n```",
+   "parsed": {
+    "reasoning": "Writing at critical risk (only 2 carriers). Four community boosts have saturated social cohesion at 0.65. Need knowledge preservation urgently. Community investment pays off now—switch focus to secure fragile knowledge transmission.",
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.12
+    }
+   }
+  },
+  {
+   "year": 30,
+   "reportBytes": 1653,
+   "raw": "{\"reasoning\":\"Social cohesion at 0.71 is strong, preventing further saturation. Fishing at critical risk (1 holder). Industry push will spread practical knowledge and build winter resilience before population scales further.\",\"type\":\"PROMOTE_INDUSTRY\",\"args\":{\"delta\":0.10}}",
+   "parsed": {
+    "reasoning": "Social cohesion at 0.71 is strong, preventing further saturation. Fishing at critical risk (1 holder). Industry push will spread practical knowledge and build winter resilience before population scales further.",
+    "type": "PROMOTE_INDUSTRY",
+    "args": {
+     "delta": 0.1
+    }
+   }
+  },
+  {
+   "year": 35,
+   "reportBytes": 1223,
+   "raw": "{\"reasoning\":\"Violence emerged (Torv attacked Sten) despite high social cohesion. Ambition at 0.68 driving conflict. Tempering ambition should reduce violence while preserving strong industry/curiosity gains. Social nearly saturated anyway.\",\"type\":\"TEMPER_AMBITION\",\"args\":{\"delta\":0.10}}",
+   "parsed": {
+    "reasoning": "Violence emerged (Torv attacked Sten) despite high social cohesion. Ambition at 0.68 driving conflict. Tempering ambition should reduce violence while preserving strong industry/curiosity gains. Social nearly saturated anyway.",
+    "type": "TEMPER_AMBITION",
+    "args": {
+     "delta": 0.1
+    }
+   }
+  },
+  {
+   "year": 40,
+   "reportBytes": 1753,
+   "raw": "{\"reasoning\":\"Social 0.63 sufficient for knowledge spread. Recent violence death + wolf attack signal danger. Ambition 0.58 balanced but population still recovering from losses. Industry push to secure resources before winter vulnerability returns.\",\"type\":\"PROMOTE_INDUSTRY\",\"args\":{\"delta\":0.10}}",
+   "parsed": {
+    "reasoning": "Social 0.63 sufficient for knowledge spread. Recent violence death + wolf attack signal danger. Ambition 0.58 balanced but population still recovering from losses. Industry push to secure resources before winter vulnerability returns.",
+    "type": "PROMOTE_INDUSTRY",
+    "args": {
+     "delta": 0.1
+    }
+   }
+  },
+  {
+   "year": 45,
+   "reportBytes": 1603,
+   "raw": "{\"reasoning\":\"Tin at extreme risk (1 carrier). Painting also critical (2). Social cohesion spreads knowledge. After repeated community boosts (years 5-25), social is only 0.62. One more push helps preserve endangered crafts before they're lost forever.\",\"type\":\"FOSTER_COMMUNITY\",\"args\":{\"delta\":0.10}}",
+   "parsed": {
+    "reasoning": "Tin at extreme risk (1 carrier). Painting also critical (2). Social cohesion spreads knowledge. After repeated community boosts (years 5-25), social is only 0.62. One more push helps preserve endangered crafts before they're lost forever.",
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.1
+    }
+   }
+  },
+  {
+   "year": 50,
+   "reportBytes": 1602,
+   "raw": "```json\n{\n  \"reasoning\": \"Population healthy at 18, no hunger crisis, knowledge secure (no atRisk). Social at 0.69 approaching saturation from repeated fostering. Curiosity high (0.77) driving innovation. Diligence strong. Shift to industry to consolidate gains and prepare infrastructure.\",\n  \"type\": \"PROMOTE_INDUSTRY\",\n  \"args\": {\"delta\": 0.08}\n}\n```",
+   "parsed": {
+    "reasoning": "Population healthy at 18, no hunger crisis, knowledge secure (no atRisk). Social at 0.69 approaching saturation from repeated fostering. Curiosity high (0.77) driving innovation. Diligence strong. Shift to industry to consolidate gains and prepare infrastructure.",
+    "type": "PROMOTE_INDUSTRY",
+    "args": {
+     "delta": 0.08
+    }
+   }
+  },
+  {
+   "year": 55,
+   "reportBytes": 1549,
+   "raw": "{\"reasoning\":\"Population stable at 20, no knowledge at risk, strong diligence (0.82). Social cohesion moderate (0.69) but could strengthen knowledge transfer further. Curiosity high enables discovery. Continue building community bonds to secure knowledge retention.\",\"type\":\"FOSTER_COMMUNITY\",\"args\":{\"delta\":0.08}}",
+   "parsed": {
+    "reasoning": "Population stable at 20, no knowledge at risk, strong diligence (0.82). Social cohesion moderate (0.69) but could strengthen knowledge transfer further. Curiosity high enables discovery. Continue building community bonds to secure knowledge retention.",
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   }
+  },
+  {
+   "year": 60,
+   "reportBytes": 1914,
+   "raw": "```json\n{\"reasoning\":\"Population stable at 23, no knowledge at risk, strong social/diligence traits. Curiosity high (0.76) driving star observations and innovation. Ambition moderate (0.58). Continue building prosperity through industry before winter pressures return.\",\"type\":\"PROMOTE_INDUSTRY\",\"args\":{\"delta\":0.08}}\n```",
+   "parsed": {
+    "reasoning": "Population stable at 23, no knowledge at risk, strong social/diligence traits. Curiosity high (0.76) driving star observations and innovation. Ambition moderate (0.58). Continue building prosperity through industry before winter pressures return.",
+    "type": "PROMOTE_INDUSTRY",
+    "args": {
+     "delta": 0.08
+    }
+   }
+  }
+ ]
+}

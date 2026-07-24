@@ -1,0 +1,290 @@
+{
+ "config": {
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5",
+  "seed": 330244,
+  "years": 60
+ },
+ "replay": {
+  "engineSha": "4f237acffa0cc76e6de29df8abb43db6519705d07b7b8b0439fae45f2dcad18e",
+  "seed": 330244,
+  "ticks": 8640,
+  "edicts": [
+   {
+    "year": 5,
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   },
+   {
+    "year": 10,
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   },
+   {
+    "year": 15,
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   },
+   {
+    "year": 20,
+    "type": "ENCOURAGE_EXPERIMENTS",
+    "args": {
+     "delta": 0.09
+    }
+   },
+   {
+    "year": 25,
+    "type": "ENCOURAGE_EXPERIMENTS",
+    "args": {
+     "delta": 0.09
+    }
+   },
+   {
+    "year": 30,
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   },
+   {
+    "year": 35,
+    "type": "TEMPER_AMBITION",
+    "args": {
+     "delta": 0.08
+    }
+   },
+   {
+    "year": 40,
+    "type": "PROMOTE_INDUSTRY",
+    "args": {
+     "delta": 0.08
+    }
+   },
+   {
+    "year": 45,
+    "type": "PROMOTE_INDUSTRY",
+    "args": {
+     "delta": 0.08
+    }
+   },
+   {
+    "year": 50,
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   },
+   {
+    "year": 55,
+    "type": "TEMPER_AMBITION",
+    "args": {
+     "delta": 0.1
+    }
+   },
+   {
+    "year": 60,
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   }
+  ]
+ },
+ "score": {
+  "baseline": {
+   "survived": 1,
+   "population": 15,
+   "civDepth": 10,
+   "knowledgeAlive": 34,
+   "knowledgeLosses": 0,
+   "rediscoveries": 0,
+   "traditions": 3,
+   "violenceDeaths": 13,
+   "generations": 4
+  },
+  "steward": {
+   "survived": 1,
+   "population": 18,
+   "civDepth": 10,
+   "knowledgeAlive": 34,
+   "knowledgeLosses": 0,
+   "rediscoveries": 0,
+   "traditions": 3,
+   "violenceDeaths": 13,
+   "generations": 4
+  },
+  "delta": {
+   "survived": 0,
+   "population": 3,
+   "civDepth": 0,
+   "knowledgeAlive": 0,
+   "knowledgeLosses": 0,
+   "rediscoveries": 0,
+   "traditions": 0,
+   "violenceDeaths": 0,
+   "generations": 0
+  },
+  "composite": 3,
+  "weights": {
+   "survived": 50,
+   "population": 1,
+   "civDepth": 8,
+   "knowledgeAlive": 2,
+   "knowledgeLosses": -3,
+   "traditions": 3,
+   "violenceDeaths": -2
+  }
+ },
+ "transcript": [
+  {
+   "year": 5,
+   "reportBytes": 988,
+   "raw": "```json\n{\n  \"reasoning\": \"Sharp and spear at critical risk (≤2 holders each). High ambition (0.71) and low social cohesion (0.47) threaten knowledge loss. Foster community spreads crafts via teaching, stabilizes hunger baseline, and reduces friction-driven losses. Survival-critical.\",\n  \"type\": \"FOSTER_COMMUNITY\",\n  \"args\": {\"delta\": 0.08}\n}\n```",
+   "parsed": {
+    "reasoning": "Sharp and spear at critical risk (≤2 holders each). High ambition (0.71) and low social cohesion (0.47) threaten knowledge loss. Foster community spreads crafts via teaching, stabilizes hunger baseline, and reduces friction-driven losses. Survival-critical.",
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   }
+  },
+  {
+   "year": 10,
+   "reportBytes": 1304,
+   "raw": "```json\n{\n  \"reasoning\": \"Population tiny (5), survival precarious (1 starvation death). 6 crafts at-risk; knowledge loss is critical threat. Diligence high (0.85); curiosity moderate (0.52). Social (0.54) adequate but empathy low (0.37). FOSTER_COMMUNITY spreads knowledge via teaching, stabilizes cohesion, prevents isolation deaths. Winter looms; social bonds improve food-sharing resilience.\",\n  \"type\": \"FOSTER_COMMUNITY\",\n  \"args\": {\"delta\": 0.08}\n}\n```",
+   "parsed": {
+    "reasoning": "Population tiny (5), survival precarious (1 starvation death). 6 crafts at-risk; knowledge loss is critical threat. Diligence high (0.85); curiosity moderate (0.52). Social (0.54) adequate but empathy low (0.37). FOSTER_COMMUNITY spreads knowledge via teaching, stabilizes cohesion, prevents isolation deaths. Winter looms; social bonds improve food-sharing resilience.",
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   }
+  },
+  {
+   "year": 15,
+   "reportBytes": 1482,
+   "raw": "```json\n{\n  \"reasoning\": \"Population tiny (6), hunger stable (61), but 10 at-risk crafts including critical farming/fishing/sailing. Low social (0.58) threatens knowledge transmission. FOSTER_COMMUNITY consolidates fragile knowledge before winter loss.\",\n  \"type\": \"FOSTER_COMMUNITY\",\n  \"args\": {\"delta\": 0.08}\n}\n```",
+   "parsed": {
+    "reasoning": "Population tiny (6), hunger stable (61), but 10 at-risk crafts including critical farming/fishing/sailing. Low social (0.58) threatens knowledge transmission. FOSTER_COMMUNITY consolidates fragile knowledge before winter loss.",
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   }
+  },
+  {
+   "year": 20,
+   "reportBytes": 1238,
+   "raw": "```json\n{\n  \"reasoning\": \"Four knowledge domains at-risk (fishing, glass, glassblowing, optics). Hunger stable; population small but viable. Social cohesion strong (3 FOSTER_COMMUNITY edicts bore fruit—social 0.61, traditions spreading). Curiosity lagging (0.52) but diligence high (0.82). Fishing critical for food security & survival; glassblowing/optics rare, high-value. Boost curiosity to accelerate knowledge diffusion & secure at-risk crafts before carriers die.\",\n  \"type\": \"ENCOURAGE_EXPERIMENTS\",\n  \"args\": {\n    \"delta\": 0.09\n  }\n}\n```",
+   "parsed": {
+    "reasoning": "Four knowledge domains at-risk (fishing, glass, glassblowing, optics). Hunger stable; population small but viable. Social cohesion strong (3 FOSTER_COMMUNITY edicts bore fruit—social 0.61, traditions spreading). Curiosity lagging (0.52) but diligence high (0.82). Fishing critical for food security & survival; glassblowing/optics rare, high-value. Boost curiosity to accelerate knowledge diffusion & secure at-risk crafts before carriers die.",
+    "type": "ENCOURAGE_EXPERIMENTS",
+    "args": {
+     "delta": 0.09
+    }
+   }
+  },
+  {
+   "year": 25,
+   "reportBytes": 1297,
+   "raw": "```json\n{\n  \"reasoning\": \"Population tiny (7) but stable with births outpacing starvation. No at-risk knowledge yet. Diligence high (0.84), social moderate (0.6). Community fostering worked; now experiments (yr20) should compound. Push curiosity further to unlock advanced crafts (optics, glassblowing, philosophy underdeveloped). Saturation risk low.\",\n  \"type\": \"ENCOURAGE_EXPERIMENTS\",\n  \"args\": {\"delta\": 0.09}\n}\n```",
+   "parsed": {
+    "reasoning": "Population tiny (7) but stable with births outpacing starvation. No at-risk knowledge yet. Diligence high (0.84), social moderate (0.6). Community fostering worked; now experiments (yr20) should compound. Push curiosity further to unlock advanced crafts (optics, glassblowing, philosophy underdeveloped). Saturation risk low.",
+    "type": "ENCOURAGE_EXPERIMENTS",
+    "args": {
+     "delta": 0.09
+    }
+   }
+  },
+  {
+   "year": 30,
+   "reportBytes": 1475,
+   "raw": "```json\n{\n  \"reasoning\": \"Population stable at 11, no at-risk knowledge, hunger manageable (63avg). Empathy dangerously low (0.34) risks violence/theft. Diligence high (0.81) allows sustainable industry. Boost empathy to reduce friction, enable social cohesion for knowledge retention.\",\n  \"type\": \"FOSTER_COMMUNITY\",\n  \"args\": {\"delta\": 0.08}\n}\n```",
+   "parsed": {
+    "reasoning": "Population stable at 11, no at-risk knowledge, hunger manageable (63avg). Empathy dangerously low (0.34) risks violence/theft. Diligence high (0.81) allows sustainable industry. Boost empathy to reduce friction, enable social cohesion for knowledge retention.",
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   }
+  },
+  {
+   "year": 35,
+   "reportBytes": 1328,
+   "raw": "```json\n{\n  \"reasoning\": \"Population stable at 12, no at-risk knowledge, hunger manageable (68 avg). Empathy critically low (0.35)—violence present. Social cohesion (0.65) and community focus have sustained knowledge. Repeated FOSTER_COMMUNITY likely saturating. Reduce ambition to lower friction/violence while maintaining stability.\",\n  \"type\": \"TEMPER_AMBITION\",\n  \"args\": {\"delta\": 0.08}\n}\n```",
+   "parsed": {
+    "reasoning": "Population stable at 12, no at-risk knowledge, hunger manageable (68 avg). Empathy critically low (0.35)—violence present. Social cohesion (0.65) and community focus have sustained knowledge. Repeated FOSTER_COMMUNITY likely saturating. Reduce ambition to lower friction/violence while maintaining stability.",
+    "type": "TEMPER_AMBITION",
+    "args": {
+     "delta": 0.08
+    }
+   }
+  },
+  {
+   "year": 40,
+   "reportBytes": 2187,
+   "raw": "```json\n{\n  \"reasoning\": \"Glassblowing at 1 person—critical knowledge loss risk. Low empathy (0.36) and violence events indicate social friction. High diligence (0.83) supports industry focus. Prioritize PROMOTE_INDUSTRY to strengthen food security and economic resilience before winter.\",\n  \"type\": \"PROMOTE_INDUSTRY\",\n  \"args\": {\"delta\": 0.08}\n}\n```",
+   "parsed": {
+    "reasoning": "Glassblowing at 1 person—critical knowledge loss risk. Low empathy (0.36) and violence events indicate social friction. High diligence (0.83) supports industry focus. Prioritize PROMOTE_INDUSTRY to strengthen food security and economic resilience before winter.",
+    "type": "PROMOTE_INDUSTRY",
+    "args": {
+     "delta": 0.08
+    }
+   }
+  },
+  {
+   "year": 45,
+   "reportBytes": 1206,
+   "raw": "```json\n{\n  \"reasoning\": \"Glassblowing at critical risk (2 holders). High diligence (0.87) supports industry push. Curiosity (0.67) adequate. Industry edict spreads knowledge through apprenticeship while stabilizing food/wood stocks. Population small but stable.\",\n  \"type\": \"PROMOTE_INDUSTRY\",\n  \"args\": {\"delta\": 0.08}\n}\n```",
+   "parsed": {
+    "reasoning": "Glassblowing at critical risk (2 holders). High diligence (0.87) supports industry push. Curiosity (0.67) adequate. Industry edict spreads knowledge through apprenticeship while stabilizing food/wood stocks. Population small but stable.",
+    "type": "PROMOTE_INDUSTRY",
+    "args": {
+     "delta": 0.08
+    }
+   }
+  },
+  {
+   "year": 50,
+   "reportBytes": 1685,
+   "raw": "```json\n{\n  \"reasoning\": \"Two crafts (glassblowing, optics) at critical risk with only 1-2 holders each. High diligence (0.91) and social cohesion (0.65) enable knowledge spread. Community boost will strengthen social bonds, accelerate teaching, and protect rare knowledge before winter. Population stable; food adequate.\",\n  \"type\": \"FOSTER_COMMUNITY\",\n  \"args\": {\"delta\": 0.08}\n}\n```",
+   "parsed": {
+    "reasoning": "Two crafts (glassblowing, optics) at critical risk with only 1-2 holders each. High diligence (0.91) and social cohesion (0.65) enable knowledge spread. Community boost will strengthen social bonds, accelerate teaching, and protect rare knowledge before winter. Population stable; food adequate.",
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   }
+  },
+  {
+   "year": 55,
+   "reportBytes": 1622,
+   "raw": "```json\n{\n  \"reasoning\": \"Violence erupted (raid). Low empathy (0.36) + high ambition (0.62) + resource stress fuel conflict. Temper ambition to reduce aggression; farming (12) and granary (14) are weak—need stability before growth.\",\n  \"type\": \"TEMPER_AMBITION\",\n  \"args\": {\"delta\": 0.10}\n}\n```",
+   "parsed": {
+    "reasoning": "Violence erupted (raid). Low empathy (0.36) + high ambition (0.62) + resource stress fuel conflict. Temper ambition to reduce aggression; farming (12) and granary (14) are weak—need stability before growth.",
+    "type": "TEMPER_AMBITION",
+    "args": {
+     "delta": 0.1
+    }
+   }
+  },
+  {
+   "year": 60,
+   "reportBytes": 1635,
+   "raw": "```json\n{\n  \"reasoning\": \"Population stable at 18, hunger manageable (60 avg). No knowledge at risk. Curiosity high (0.66), optics emerging (5 carriers), philosophy strong. Vidar watching stars—science blooming. Low empathy (0.37) risks social friction; recent failed experiment suggests ambition strain. Boost social to protect knowledge transmission and stabilize for winter.\",\n  \"type\": \"FOSTER_COMMUNITY\",\n  \"args\": {\"delta\": 0.08}\n}\n```",
+   "parsed": {
+    "reasoning": "Population stable at 18, hunger manageable (60 avg). No knowledge at risk. Curiosity high (0.66), optics emerging (5 carriers), philosophy strong. Vidar watching stars—science blooming. Low empathy (0.37) risks social friction; recent failed experiment suggests ambition strain. Boost social to protect knowledge transmission and stabilize for winter.",
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,290 @@
+{
+ "config": {
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5",
+  "seed": 210160,
+  "years": 60
+ },
+ "replay": {
+  "engineSha": "4f237acffa0cc76e6de29df8abb43db6519705d07b7b8b0439fae45f2dcad18e",
+  "seed": 210160,
+  "ticks": 8640,
+  "edicts": [
+   {
+    "year": 5,
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   },
+   {
+    "year": 10,
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   },
+   {
+    "year": 15,
+    "type": "ENCOURAGE_EXPERIMENTS",
+    "args": {
+     "delta": 0.08
+    }
+   },
+   {
+    "year": 20,
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   },
+   {
+    "year": 25,
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   },
+   {
+    "year": 30,
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   },
+   {
+    "year": 35,
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   },
+   {
+    "year": 40,
+    "type": "ENCOURAGE_EXPERIMENTS",
+    "args": {
+     "delta": 0.08
+    }
+   },
+   {
+    "year": 45,
+    "type": "TEMPER_AMBITION",
+    "args": {
+     "delta": 0.08
+    }
+   },
+   {
+    "year": 50,
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   },
+   {
+    "year": 55,
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   },
+   {
+    "year": 60,
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   }
+  ]
+ },
+ "score": {
+  "baseline": {
+   "survived": 1,
+   "population": 19,
+   "civDepth": 8,
+   "knowledgeAlive": 34,
+   "knowledgeLosses": 0,
+   "rediscoveries": 0,
+   "traditions": 0,
+   "violenceDeaths": 14,
+   "generations": 4
+  },
+  "steward": {
+   "survived": 1,
+   "population": 21,
+   "civDepth": 10,
+   "knowledgeAlive": 34,
+   "knowledgeLosses": 0,
+   "rediscoveries": 0,
+   "traditions": 3,
+   "violenceDeaths": 12,
+   "generations": 4
+  },
+  "delta": {
+   "survived": 0,
+   "population": 2,
+   "civDepth": 2,
+   "knowledgeAlive": 0,
+   "knowledgeLosses": 0,
+   "rediscoveries": 0,
+   "traditions": 3,
+   "violenceDeaths": -2,
+   "generations": 0
+  },
+  "composite": 31,
+  "weights": {
+   "survived": 50,
+   "population": 1,
+   "civDepth": 8,
+   "knowledgeAlive": 2,
+   "knowledgeLosses": -3,
+   "traditions": 3,
+   "violenceDeaths": -2
+  }
+ },
+ "transcript": [
+  {
+   "year": 5,
+   "reportBytes": 1871,
+   "raw": "```json\n{\n  \"reasoning\": \"Population tiny (5), food security marginal (hungerAvg 57). Four critical crafts at-risk with single holders. Winter kills without preparation. Prioritize knowledge retention via social cohesion before experimenting.\",\n  \"type\": \"FOSTER_COMMUNITY\",\n  \"args\": {\"delta\": 0.08}\n}\n```",
+   "parsed": {
+    "reasoning": "Population tiny (5), food security marginal (hungerAvg 57). Four critical crafts at-risk with single holders. Winter kills without preparation. Prioritize knowledge retention via social cohesion before experimenting.",
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   }
+  },
+  {
+   "year": 10,
+   "reportBytes": 1467,
+   "raw": "```json\n{\n  \"reasoning\": \"Population stable at 6. Critical: 10 at-risk crafts (sailing, smithing, brick, tin, writing, fishing, granary, well, mill, glass). High curiosity (0.73) but low empathy (0.37) limits knowledge retention. Social cohesion (0.68) is our best lever for preventing craft loss. FOSTER_COMMUNITY spreads knowledge through social bonds—essential before winter and for long-term survival.\",\n  \"type\": \"FOSTER_COMMUNITY\",\n  \"args\": {\"delta\": 0.08}\n}\n```",
+   "parsed": {
+    "reasoning": "Population stable at 6. Critical: 10 at-risk crafts (sailing, smithing, brick, tin, writing, fishing, granary, well, mill, glass). High curiosity (0.73) but low empathy (0.37) limits knowledge retention. Social cohesion (0.68) is our best lever for preventing craft loss. FOSTER_COMMUNITY spreads knowledge through social bonds—essential before winter and for long-term survival.",
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   }
+  },
+  {
+   "year": 15,
+   "reportBytes": 1044,
+   "raw": "```json\n{\n  \"reasoning\": \"Two at-risk crafts (fishing, philosophy) threaten knowledge loss. High curiosity (0.77) and social cohesion (0.76) support experimentation. Low empathy (0.35) and conformity (0.38) create friction risk. Encourage experiments to lock in discoveries before winter arrives; builds on existing cultural strength.\",\n  \"type\": \"ENCOURAGE_EXPERIMENTS\",\n  \"args\": {\"delta\": 0.08}\n}\n```",
+   "parsed": {
+    "reasoning": "Two at-risk crafts (fishing, philosophy) threaten knowledge loss. High curiosity (0.77) and social cohesion (0.76) support experimentation. Low empathy (0.35) and conformity (0.38) create friction risk. Encourage experiments to lock in discoveries before winter arrives; builds on existing cultural strength.",
+    "type": "ENCOURAGE_EXPERIMENTS",
+    "args": {
+     "delta": 0.08
+    }
+   }
+  },
+  {
+   "year": 20,
+   "reportBytes": 1290,
+   "raw": "```json\n{\n  \"reasoning\": \"Six crafts at critical risk (held by ≤2 people). Social cohesion (0.74) spreads knowledge; low empathy (0.4) limits resilience. Foster community to deepen teaching bonds, protect at-risk knowledge, and build cohesion before winter.\",\n  \"type\": \"FOSTER_COMMUNITY\",\n  \"args\": {\"delta\": 0.08}\n}\n```",
+   "parsed": {
+    "reasoning": "Six crafts at critical risk (held by ≤2 people). Social cohesion (0.74) spreads knowledge; low empathy (0.4) limits resilience. Foster community to deepen teaching bonds, protect at-risk knowledge, and build cohesion before winter.",
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   }
+  },
+  {
+   "year": 25,
+   "reportBytes": 2002,
+   "raw": "```json\n{\n  \"reasoning\": \"Population stable at 11 (max 12 reached). Optics at risk (1 holder). High curiosity (0.79) and social (0.73) already—new nudges saturate. Low ambition (0.58) prevents friction but limits drive. Winter survival critical: 2 hungry. Prioritize knowledge retention via FOSTER_COMMUNITY to protect optics and consolidate learning chains before loss events.\",\n  \"type\": \"FOSTER_COMMUNITY\",\n  \"args\": {\"delta\": 0.08}\n}\n```",
+   "parsed": {
+    "reasoning": "Population stable at 11 (max 12 reached). Optics at risk (1 holder). High curiosity (0.79) and social (0.73) already—new nudges saturate. Low ambition (0.58) prevents friction but limits drive. Winter survival critical: 2 hungry. Prioritize knowledge retention via FOSTER_COMMUNITY to protect optics and consolidate learning chains before loss events.",
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   }
+  },
+  {
+   "year": 30,
+   "reportBytes": 1158,
+   "raw": "```json\n{\n  \"reasoning\": \"Population stable at 12, no at-risk knowledge. High curiosity (0.78) and social cohesion (0.74) are strengths. Empathy is dangerously low (0.4)—risks violence/feuds. Low ambition (0.57) is healthy but empathy deficit threatens social stability. Temper ambition would waste turns; boost empathy via community focus.\",\n  \"type\": \"FOSTER_COMMUNITY\",\n  \"args\": {\n    \"delta\": 0.08\n  }\n}\n```",
+   "parsed": {
+    "reasoning": "Population stable at 12, no at-risk knowledge. High curiosity (0.78) and social cohesion (0.74) are strengths. Empathy is dangerously low (0.4)—risks violence/feuds. Low ambition (0.57) is healthy but empathy deficit threatens social stability. Temper ambition would waste turns; boost empathy via community focus.",
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   }
+  },
+  {
+   "year": 35,
+   "reportBytes": 1025,
+   "raw": "```json\n{\n  \"reasoning\": \"Population stable at 13, no at-risk knowledge, but empathy critically low (0.39) driving violence. Social cohesion is strong but moral fabric weak. Foster community again to reinforce bonds and dampen conflict impulses.\",\n  \"type\": \"FOSTER_COMMUNITY\",\n  \"args\": {\n    \"delta\": 0.08\n  }\n}\n```",
+   "parsed": {
+    "reasoning": "Population stable at 13, no at-risk knowledge, but empathy critically low (0.39) driving violence. Social cohesion is strong but moral fabric weak. Foster community again to reinforce bonds and dampen conflict impulses.",
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   }
+  },
+  {
+   "year": 40,
+   "reportBytes": 1366,
+   "raw": "```json\n{\n  \"reasoning\": \"Population stable at 14; no at-risk knowledge. Social cohesion (0.8) strong from consistent FOSTER_COMMUNITY. Curiosity (0.78) high but diligence (0.59) limits execution. Ambition (0.57) moderate—nudge to drive innovation without destabilizing. Knowledge depth near saturation in core crafts.\",\n  \"type\": \"ENCOURAGE_EXPERIMENTS\",\n  \"args\": {\"delta\": 0.08}\n}\n```",
+   "parsed": {
+    "reasoning": "Population stable at 14; no at-risk knowledge. Social cohesion (0.8) strong from consistent FOSTER_COMMUNITY. Curiosity (0.78) high but diligence (0.59) limits execution. Ambition (0.57) moderate—nudge to drive innovation without destabilizing. Knowledge depth near saturation in core crafts.",
+    "type": "ENCOURAGE_EXPERIMENTS",
+    "args": {
+     "delta": 0.08
+    }
+   }
+  },
+  {
+   "year": 45,
+   "reportBytes": 1572,
+   "raw": "```json\n{\n  \"reasoning\": \"Population stable at 17 with no at-risk knowledge. Empathy critically low (0.37), driving violence risk and social fragmentation. Social cohesion already high (0.79). Prioritize tempering ambition (0.56) to reduce friction/theft/feuds while maintaining growth.\",\n  \"type\": \"TEMPER_AMBITION\",\n  \"args\": {\"delta\": 0.08}\n}\n```",
+   "parsed": {
+    "reasoning": "Population stable at 17 with no at-risk knowledge. Empathy critically low (0.37), driving violence risk and social fragmentation. Social cohesion already high (0.79). Prioritize tempering ambition (0.56) to reduce friction/theft/feuds while maintaining growth.",
+    "type": "TEMPER_AMBITION",
+    "args": {
+     "delta": 0.08
+    }
+   }
+  },
+  {
+   "year": 50,
+   "reportBytes": 1736,
+   "raw": "```json\n{\n  \"reasoning\": \"Painting at risk (1 person). Curiosity high (0.82), social strong (0.77)—community bonds enable knowledge spread. Foster community to anchor painting and deepen cultural roots before loss.\",\n  \"type\": \"FOSTER_COMMUNITY\",\n  \"args\": {\"delta\": 0.08}\n}\n```",
+   "parsed": {
+    "reasoning": "Painting at risk (1 person). Curiosity high (0.82), social strong (0.77)—community bonds enable knowledge spread. Foster community to anchor painting and deepen cultural roots before loss.",
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   }
+  },
+  {
+   "year": 55,
+   "reportBytes": 1701,
+   "raw": "```json\n{\n  \"reasoning\": \"Population stable at 20, hunger manageable (70 avg), knowledge diverse (34 alive). Painting at 2 holders—critical atRisk. Social cohesion (0.81) remains strong but curiosity (0.82) and low empathy (0.39) create knowledge fragility. Diligence (0.59) soft. One starvation death last year signals food buffer margin. FOSTER_COMMUNITY spreads tacit knowledge (especially painting) via teaching chains, reinforces low-violence stability.\",\n  \"type\": \"FOSTER_COMMUNITY\",\n  \"args\": {\n    \"delta\": 0.08\n  }\n}\n```",
+   "parsed": {
+    "reasoning": "Population stable at 20, hunger manageable (70 avg), knowledge diverse (34 alive). Painting at 2 holders—critical atRisk. Social cohesion (0.81) remains strong but curiosity (0.82) and low empathy (0.39) create knowledge fragility. Diligence (0.59) soft. One starvation death last year signals food buffer margin. FOSTER_COMMUNITY spreads tacit knowledge (especially painting) via teaching chains, reinforces low-violence stability.",
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   }
+  },
+  {
+   "year": 60,
+   "reportBytes": 2030,
+   "raw": "```json\n{\n  \"reasoning\": \"Population stable at 22, no at-risk knowledge. Curiosity high (0.83), social cohesion strong (0.85). Ambition low (0.49) but empathy dangerously low (0.38)—friction risk rising. Food secure (hungerAvg 62). Foster community once more to strengthen bonds and stabilize empathy before friction cascades.\",\n  \"type\": \"FOSTER_COMMUNITY\",\n  \"args\": {\n    \"delta\": 0.08\n  }\n}\n```",
+   "parsed": {
+    "reasoning": "Population stable at 22, no at-risk knowledge. Curiosity high (0.83), social cohesion strong (0.85). Ambition low (0.49) but empathy dangerously low (0.38)—friction risk rising. Food secure (hungerAvg 62). Foster community once more to strengthen bonds and stabilize empathy before friction cascades.",
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   }
+  }
+ ]
+}

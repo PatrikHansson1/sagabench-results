@@ -1,0 +1,290 @@
+{
+ "config": {
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5",
+  "seed": 30034,
+  "years": 60
+ },
+ "replay": {
+  "engineSha": "4f237acffa0cc76e6de29df8abb43db6519705d07b7b8b0439fae45f2dcad18e",
+  "seed": 30034,
+  "ticks": 8640,
+  "edicts": [
+   {
+    "year": 5,
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   },
+   {
+    "year": 10,
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.1
+    }
+   },
+   {
+    "year": 15,
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   },
+   {
+    "year": 20,
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   },
+   {
+    "year": 25,
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   },
+   {
+    "year": 30,
+    "type": "PROMOTE_INDUSTRY",
+    "args": {
+     "delta": 0.08
+    }
+   },
+   {
+    "year": 35,
+    "type": "ENCOURAGE_EXPERIMENTS",
+    "args": {
+     "delta": 0.08
+    }
+   },
+   {
+    "year": 40,
+    "type": "TEMPER_AMBITION",
+    "args": {
+     "delta": 0.08
+    }
+   },
+   {
+    "year": 45,
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   },
+   {
+    "year": 50,
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   },
+   {
+    "year": 55,
+    "type": "ENCOURAGE_EXPERIMENTS",
+    "args": {
+     "delta": 0.08
+    }
+   },
+   {
+    "year": 60,
+    "type": "TEMPER_AMBITION",
+    "args": {
+     "delta": 0.1
+    }
+   }
+  ]
+ },
+ "score": {
+  "baseline": {
+   "survived": 1,
+   "population": 14,
+   "civDepth": 10,
+   "knowledgeAlive": 34,
+   "knowledgeLosses": 1,
+   "rediscoveries": 1,
+   "traditions": 2,
+   "violenceDeaths": 16,
+   "generations": 4
+  },
+  "steward": {
+   "survived": 1,
+   "population": 25,
+   "civDepth": 10,
+   "knowledgeAlive": 33,
+   "knowledgeLosses": 1,
+   "rediscoveries": 0,
+   "traditions": 4,
+   "violenceDeaths": 39,
+   "generations": 5
+  },
+  "delta": {
+   "survived": 0,
+   "population": 11,
+   "civDepth": 0,
+   "knowledgeAlive": -1,
+   "knowledgeLosses": 0,
+   "rediscoveries": -1,
+   "traditions": 2,
+   "violenceDeaths": 23,
+   "generations": 1
+  },
+  "composite": -31,
+  "weights": {
+   "survived": 50,
+   "population": 1,
+   "civDepth": 8,
+   "knowledgeAlive": 2,
+   "knowledgeLosses": -3,
+   "traditions": 3,
+   "violenceDeaths": -2
+  }
+ },
+ "transcript": [
+  {
+   "year": 5,
+   "reportBytes": 2042,
+   "raw": "```json\n{\n  \"reasoning\": \"Critical: 7 knowledge crafts at-risk (pottery, kiln, mill, sailing, writing, philosophy, bow) held by ≤2 people. Ask alone carries writing/philosophy/bow. High curiosity (0.67) and ambition (0.7) but low social cohesion (0.39) prevents knowledge spread. Foster community to bind carriers together, ensure survival of irreplaceable deep knowledge before winter.\",\n  \"type\": \"FOSTER_COMMUNITY\",\n  \"args\": {\"delta\": 0.08}\n}\n```",
+   "parsed": {
+    "reasoning": "Critical: 7 knowledge crafts at-risk (pottery, kiln, mill, sailing, writing, philosophy, bow) held by ≤2 people. Ask alone carries writing/philosophy/bow. High curiosity (0.67) and ambition (0.7) but low social cohesion (0.39) prevents knowledge spread. Foster community to bind carriers together, ensure survival of irreplaceable deep knowledge before winter.",
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   }
+  },
+  {
+   "year": 10,
+   "reportBytes": 1212,
+   "raw": "```json\n{\n  \"reasoning\": \"Critical: 10 at-risk crafts including farming, smithing, metaltools—essential for survival and growth. Low social (0.44) impedes knowledge transfer. Ambition (0.7) drives violence. FOSTER_COMMUNITY spreads skills, reduces conflict, secures knowledge carriers.\",\n  \"type\": \"FOSTER_COMMUNITY\",\n  \"args\": {\"delta\": 0.10}\n}\n```",
+   "parsed": {
+    "reasoning": "Critical: 10 at-risk crafts including farming, smithing, metaltools—essential for survival and growth. Low social (0.44) impedes knowledge transfer. Ambition (0.7) drives violence. FOSTER_COMMUNITY spreads skills, reduces conflict, secures knowledge carriers.",
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.1
+    }
+   }
+  },
+  {
+   "year": 15,
+   "reportBytes": 1446,
+   "raw": "```json\n{\n  \"reasoning\": \"Five at-risk crafts (masonry, road, architecture, aqueduct, temple) face extinction with <=2 holders. Social cohesion spreads knowledge; foster community to reinforce teaching bonds and preserve deep crafts before winter kills carriers.\",\n  \"type\": \"FOSTER_COMMUNITY\",\n  \"args\": {\"delta\": 0.08}\n}\n```",
+   "parsed": {
+    "reasoning": "Five at-risk crafts (masonry, road, architecture, aqueduct, temple) face extinction with <=2 holders. Social cohesion spreads knowledge; foster community to reinforce teaching bonds and preserve deep crafts before winter kills carriers.",
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   }
+  },
+  {
+   "year": 20,
+   "reportBytes": 1315,
+   "raw": "```json\n{\n  \"reasoning\": \"Writing (1 holder), road (2), aqueduct (2), temple (2) at critical risk. Social cohesion spreads tacit knowledge—repeat FOSTER_COMMUNITY to cement knowledge transfer and prevent craft loss.\",\n  \"type\": \"FOSTER_COMMUNITY\",\n  \"args\": {\"delta\": 0.08}\n}\n```",
+   "parsed": {
+    "reasoning": "Writing (1 holder), road (2), aqueduct (2), temple (2) at critical risk. Social cohesion spreads tacit knowledge—repeat FOSTER_COMMUNITY to cement knowledge transfer and prevent craft loss.",
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   }
+  },
+  {
+   "year": 25,
+   "reportBytes": 1428,
+   "raw": "```json\n{\n  \"reasoning\": \"Writing and tin are at critical risk with 1-2 carriers each. Writing enables knowledge preservation; tin unlocks bronze. Social cohesion is moderate (0.59). Protect living knowledge first through community bonds before pursuing experiments.\",\n  \"type\": \"FOSTER_COMMUNITY\",\n  \"args\": {\"delta\": 0.08}\n}\n```",
+   "parsed": {
+    "reasoning": "Writing and tin are at critical risk with 1-2 carriers each. Writing enables knowledge preservation; tin unlocks bronze. Social cohesion is moderate (0.59). Protect living knowledge first through community bonds before pursuing experiments.",
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   }
+  },
+  {
+   "year": 30,
+   "reportBytes": 2017,
+   "raw": "```json\n{\n  \"reasoning\": \"Fishing (1 holder) and optics (2 holders) are critically at-risk. Social cohesion spreads knowledge; community fostering has succeeded. Violence emerged last year. Curiosity and ambition are high (0.67, 0.66); balance needed. Promote industry to stabilize food/resources and protect against winter while knowledge spreads.\",\n  \"type\": \"PROMOTE_INDUSTRY\",\n  \"args\": {\"delta\": 0.08}\n}\n```",
+   "parsed": {
+    "reasoning": "Fishing (1 holder) and optics (2 holders) are critically at-risk. Social cohesion spreads knowledge; community fostering has succeeded. Violence emerged last year. Curiosity and ambition are high (0.67, 0.66); balance needed. Promote industry to stabilize food/resources and protect against winter while knowledge spreads.",
+    "type": "PROMOTE_INDUSTRY",
+    "args": {
+     "delta": 0.08
+    }
+   }
+  },
+  {
+   "year": 35,
+   "reportBytes": 1465,
+   "raw": "```json\n{\n  \"reasoning\": \"Population stable at 16, no knowledge at risk, strong diligence (0.73) and curiosity (0.69). Low ambition-driven friction (0.68). Community well-established after 6 FOSTER rounds. Tin failed—suggest modest experimentation to unlock new crafts. Painting/glassblowing/optics emerging but rare; curiosity nudge compounds generationally.\",\n  \"type\": \"ENCOURAGE_EXPERIMENTS\",\n  \"args\": {\n    \"delta\": 0.08\n  }\n}\n```",
+   "parsed": {
+    "reasoning": "Population stable at 16, no knowledge at risk, strong diligence (0.73) and curiosity (0.69). Low ambition-driven friction (0.68). Community well-established after 6 FOSTER rounds. Tin failed—suggest modest experimentation to unlock new crafts. Painting/glassblowing/optics emerging but rare; curiosity nudge compounds generationally.",
+    "type": "ENCOURAGE_EXPERIMENTS",
+    "args": {
+     "delta": 0.08
+    }
+   }
+  },
+  {
+   "year": 40,
+   "reportBytes": 1532,
+   "raw": "```json\n{\n  \"reasoning\": \"Tin at critical risk (1 holder). Social cohesion strategy paid dividends; knowledge breadth is strong. Low conformity (0.39) and recent violence suggest friction. Temper ambition to reduce strife, stabilize fragile tin knowledge, and consolidate gains before winter.\",\n  \"type\": \"TEMPER_AMBITION\",\n  \"args\": {\"delta\": 0.08}\n}\n```",
+   "parsed": {
+    "reasoning": "Tin at critical risk (1 holder). Social cohesion strategy paid dividends; knowledge breadth is strong. Low conformity (0.39) and recent violence suggest friction. Temper ambition to reduce strife, stabilize fragile tin knowledge, and consolidate gains before winter.",
+    "type": "TEMPER_AMBITION",
+    "args": {
+     "delta": 0.08
+    }
+   }
+  },
+  {
+   "year": 45,
+   "reportBytes": 1532,
+   "raw": "```json\n{\n  \"reasoning\": \"Tin at critical risk (1 holder). Social cohesion (0.6) is lowest temperament trait, limiting knowledge transmission. Foster community to protect endangered craft and amplify teaching events.\",\n  \"type\": \"FOSTER_COMMUNITY\",\n  \"args\": {\"delta\": 0.08}\n}\n```",
+   "parsed": {
+    "reasoning": "Tin at critical risk (1 holder). Social cohesion (0.6) is lowest temperament trait, limiting knowledge transmission. Foster community to protect endangered craft and amplify teaching events.",
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   }
+  },
+  {
+   "year": 50,
+   "reportBytes": 2251,
+   "raw": "```json\n{\n  \"reasoning\": \"Tin at critical risk (1 person). Recent losses (forgework, pickaxe) signal knowledge fragility despite social strength (0.66). Population stable but small. Community bonds help retain crafts; strengthen cohesion to protect remaining carriers and enable teaching chains.\",\n  \"type\": \"FOSTER_COMMUNITY\",\n  \"args\": {\"delta\": 0.08}\n}\n```",
+   "parsed": {
+    "reasoning": "Tin at critical risk (1 person). Recent losses (forgework, pickaxe) signal knowledge fragility despite social strength (0.66). Population stable but small. Community bonds help retain crafts; strengthen cohesion to protect remaining carriers and enable teaching chains.",
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   }
+  },
+  {
+   "year": 55,
+   "reportBytes": 1729,
+   "raw": "```json\n{\n  \"reasoning\": \"Tin at-risk (1 holder). Curiosity high (0.73), social strong (0.72). Smithing needs tin; metaltools depend on it. Knowledge preservation critical. Low ambition (0.6) suggests room to push experiments safely—recent temper worked. Preserve craft diversity.\",\n  \"type\": \"ENCOURAGE_EXPERIMENTS\",\n  \"args\": {\"delta\": 0.08}\n}\n```",
+   "parsed": {
+    "reasoning": "Tin at-risk (1 holder). Curiosity high (0.73), social strong (0.72). Smithing needs tin; metaltools depend on it. Knowledge preservation critical. Low ambition (0.6) suggests room to push experiments safely—recent temper worked. Preserve craft diversity.",
+    "type": "ENCOURAGE_EXPERIMENTS",
+    "args": {
+     "delta": 0.08
+    }
+   }
+  },
+  {
+   "year": 60,
+   "reportBytes": 2300,
+   "raw": "```json\n{\n  \"reasoning\": \"Violence spiked dramatically (9 events, 3 deaths). Ambition (0.61) drives raids and feuds; Sixten/Sten conflict escalated. Social cohesion (0.71) is moderate. Tempering ambition now reduces destructive competition while preserving survival capacity.\",\n  \"type\": \"TEMPER_AMBITION\",\n  \"args\": {\"delta\": 0.10}\n}\n```",
+   "parsed": {
+    "reasoning": "Violence spiked dramatically (9 events, 3 deaths). Ambition (0.61) drives raids and feuds; Sixten/Sten conflict escalated. Social cohesion (0.71) is moderate. Tempering ambition now reduces destructive competition while preserving survival capacity.",
+    "type": "TEMPER_AMBITION",
+    "args": {
+     "delta": 0.1
+    }
+   }
+  }
+ ]
+}

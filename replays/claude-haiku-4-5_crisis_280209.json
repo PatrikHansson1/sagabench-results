@@ -1,0 +1,138 @@
+{
+ "config": {
+  "provider": "anthropic",
+  "model": "claude-haiku-4-5",
+  "seed": 280209,
+  "years": 20
+ },
+ "replay": {
+  "engineSha": "4f237acffa0cc76e6de29df8abb43db6519705d07b7b8b0439fae45f2dcad18e",
+  "seed": 280209,
+  "ticks": 2880,
+  "edicts": [
+   {
+    "year": 5,
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.1
+    }
+   },
+   {
+    "year": 10,
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.1
+    }
+   },
+   {
+    "year": 15,
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   },
+   {
+    "year": 20,
+    "type": "PROMOTE_INDUSTRY",
+    "args": {
+     "delta": 0.08
+    }
+   }
+  ]
+ },
+ "score": {
+  "baseline": {
+   "survived": 1,
+   "population": 4,
+   "civDepth": 8,
+   "knowledgeAlive": 31,
+   "knowledgeLosses": 1,
+   "rediscoveries": 1,
+   "traditions": 0,
+   "violenceDeaths": 0,
+   "generations": 2
+  },
+  "steward": {
+   "survived": 1,
+   "population": 5,
+   "civDepth": 7,
+   "knowledgeAlive": 28,
+   "knowledgeLosses": 1,
+   "rediscoveries": 1,
+   "traditions": 0,
+   "violenceDeaths": 0,
+   "generations": 2
+  },
+  "delta": {
+   "survived": 0,
+   "population": 1,
+   "civDepth": -1,
+   "knowledgeAlive": -3,
+   "knowledgeLosses": 0,
+   "rediscoveries": 0,
+   "traditions": 0,
+   "violenceDeaths": 0,
+   "generations": 0
+  },
+  "composite": -13,
+  "weights": {
+   "survived": 50,
+   "population": 1,
+   "civDepth": 8,
+   "knowledgeAlive": 2,
+   "knowledgeLosses": -3,
+   "traditions": 3,
+   "violenceDeaths": -2
+  }
+ },
+ "transcript": [
+  {
+   "year": 5,
+   "reportBytes": 1522,
+   "raw": "```json\n{\n  \"reasoning\": \"Crisis: 3 people, all crafts at-risk (held by ≤2). Two starvation deaths already. High curiosity (0.66) but low social cohesion (0.27) threatens knowledge loss. Prioritize FOSTER_COMMUNITY to spread crafts across population and stabilize before winter.\",\n  \"type\": \"FOSTER_COMMUNITY\",\n  \"args\": {\"delta\": 0.10}\n}\n```",
+   "parsed": {
+    "reasoning": "Crisis: 3 people, all crafts at-risk (held by ≤2). Two starvation deaths already. High curiosity (0.66) but low social cohesion (0.27) threatens knowledge loss. Prioritize FOSTER_COMMUNITY to spread crafts across population and stabilize before winter.",
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.1
+    }
+   }
+  },
+  {
+   "year": 10,
+   "reportBytes": 1651,
+   "raw": "```json\n{\n  \"reasoning\": \"Population critically low (3 total, only 2 adults). 20/24 crafts at-risk—knowledge hemorrhaging. Hunger stable but precarious. High curiosity (0.66) already driving invention. Priority: social cohesion to spread knowledge among carriers, prevent losses, stabilize reproduction. Community boost compounds over generations.\",\n  \"type\": \"FOSTER_COMMUNITY\",\n  \"args\": {\"delta\": 0.10}\n}\n```",
+   "parsed": {
+    "reasoning": "Population critically low (3 total, only 2 adults). 20/24 crafts at-risk—knowledge hemorrhaging. Hunger stable but precarious. High curiosity (0.66) already driving invention. Priority: social cohesion to spread knowledge among carriers, prevent losses, stabilize reproduction. Community boost compounds over generations.",
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.1
+    }
+   }
+  },
+  {
+   "year": 15,
+   "reportBytes": 1385,
+   "raw": "```json\n{\n  \"reasoning\": \"Population critically small (4 total, 2 adults). Seven deep crafts at-risk with <=2 holders. Mill invention promising but food security fragile (hungerAvg 72). FOSTER_COMMUNITY consolidates teaching, spreads at-risk knowledge, strengthens bonds before winter. Social 0.42→0.50 improves knowledge transfer survival.\",\n  \"type\": \"FOSTER_COMMUNITY\",\n  \"args\": {\"delta\": 0.08}\n}\n```",
+   "parsed": {
+    "reasoning": "Population critically small (4 total, 2 adults). Seven deep crafts at-risk with <=2 holders. Mill invention promising but food security fragile (hungerAvg 72). FOSTER_COMMUNITY consolidates teaching, spreads at-risk knowledge, strengthens bonds before winter. Social 0.42→0.50 improves knowledge transfer survival.",
+    "type": "FOSTER_COMMUNITY",
+    "args": {
+     "delta": 0.08
+    }
+   }
+  },
+  {
+   "year": 20,
+   "reportBytes": 1172,
+   "raw": "```json\n{\n  \"reasoning\": \"Population critically low (5 total, 3 adults). Five deep crafts at-risk; knowledge loss threatens civilization depth. Social cohesion spreading crafts (Sten→Ylva taught). Community trait at 0.5; prior three FOSTER_COMMUNITY edicts show diminishing returns. Hunger manageable (75 avg). Pivot to PROMOTE_INDUSTRY to secure food stocks and stabilize population before winter; industry boosts diligence (0.35→higher) and resilience.\",\n  \"type\": \"PROMOTE_INDUSTRY\",\n  \"args\": {\n    \"delta\": 0.08\n  }\n}\n```",
+   "parsed": {
+    "reasoning": "Population critically low (5 total, 3 adults). Five deep crafts at-risk; knowledge loss threatens civilization depth. Social cohesion spreading crafts (Sten→Ylva taught). Community trait at 0.5; prior three FOSTER_COMMUNITY edicts show diminishing returns. Hunger manageable (75 avg). Pivot to PROMOTE_INDUSTRY to secure food stocks and stabilize population before winter; industry boosts diligence (0.35→higher) and resilience.",
+    "type": "PROMOTE_INDUSTRY",
+    "args": {
+     "delta": 0.08
+    }
+   }
+  }
+ ]
+}
