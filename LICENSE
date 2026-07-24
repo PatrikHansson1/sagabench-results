@@ -1,0 +1,28 @@
+SagaBench results & replay packages
+Copyright (c) 2026 SagaBench AB
+
+SPDX-License-Identifier: CC-BY-4.0
+
+This repository's DATA and REPLAY PACKAGES (the contents of data/ and replays/,
+the README, VERIFYING.md, and MANIFEST.json) are licensed under the
+Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
+You are free to share and adapt this material for any purpose, even commercially,
+provided you give appropriate credit ("SagaBench, SagaBench AB, sagabench.com"),
+link to the license, and indicate if changes were made.
+
+Full legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+Human-readable summary: https://creativecommons.org/licenses/by/4.0/
+
+SEPARATE LICENSE FOR THE VERIFICATION ENGINE:
+The verification engine build (if/when added to this repository per governance
+decision) is NOT covered by CC BY 4.0. It is distributed under a separate
+evaluation-only license (see LICENSE-ENGINE) that permits running it to verify
+published results but does not grant reuse, redistribution, or commercial rights.
+No license in this repository grants any rights to SagaBench's hidden holdout
+material (world-generator, screening criteria, or holdout seeds), which are not
+distributed here.
+
+NOTE: Before public release, the full CC BY 4.0 legal code text should be pasted
+in place of the URL reference above, and the engine's eval-only license finalized,
+as part of the legal review (see 00-STYRNING/JURIST-BRIEF.md).

@@ -1,0 +1,42 @@
+# SagaBench/results — PUBLIC repo .gitignore (allowlist principle)
+# Ignore EVERYTHING by default, then un-ignore only the explicitly-public files.
+# This makes it structurally impossible to accidentally push a moat file
+# (engine internals, world-generator, screening, holdout seeds) or internal notes.
+
+# 1) ignore everything
+/*
+/**
+
+# 2) un-ignore the public surface
+!README.md
+!VERIFYING.md
+!LICENSE
+!LICENSE-ENGINE
+!MANIFEST.json
+!.gitignore
+
+!data/
+!data/**
+!replays/
+!replays/**
+
+# 3) HARD block internal/moat patterns even if copied in by mistake
+GATED-DECISIONS.md
+**/GATED-DECISIONS.md
+*secret*
+*SECRET*
+*holdout*
+*pepper*
+*COMMIT_PEPPER*
+*.pem
+*.key
+keys/
+**/keys/**
+emergence-engine-*.js
+saga-seed-registry*
+sealed-seeds*
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+node_modules/

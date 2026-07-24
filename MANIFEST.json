@@ -1,0 +1,122 @@
+{
+  "generated_note": "MANIFEST for replay-repo draft; rebuild before push. Files are verbatim copies of the research working files (see data/README.md).",
+  "engineSha_all_replays": "4f237acffa0cc76e6de29df8abb43db6519705d07b7b8b0439fae45f2dcad18e",
+  "files": {
+    "README.md": {
+      "sha256": "ecec2ed4e5824f2c556f77133f6c66bceeaeb6f4246ccaddf7f19cf2b7dd87a7",
+      "bytes": 3749
+    },
+    "VERIFYING.md": {
+      "sha256": "af4466ee299794d53f71a11adceb40061f9add8e73c9249bda5f8bc0bfb3f716",
+      "bytes": 3938
+    },
+    "data/B1-RESULTS-2026-07-23.json": {
+      "sha256": "0a4473ab95dec821dad0126cea48737862e3b05bb3763bf9137c57d73ab12c71",
+      "bytes": 27187
+    },
+    "data/B10-CROSS-HORIZON-RELIABILITY.json": {
+      "sha256": "3dacede2001914e3fe96132b81dccce3d9454f695e8e9620a987ece9df19f8cf",
+      "bytes": 1835
+    },
+    "data/B2-VB2-RESULTS-2026-07-23.json": {
+      "sha256": "5a899716b2036897f8bc3940e59eb7a8efc50341767a8bfd3e9d2e00f93cae04",
+      "bytes": 6184
+    },
+    "data/B3-FRONTIER-TAILS-240181.json": {
+      "sha256": "2e6ccf912061e24f969ecbfc8e602d386a0b102b8c32e63eeb372cc0cb3be902",
+      "bytes": 2471
+    },
+    "data/B9-TAIL-GENERALIZATION.json": {
+      "sha256": "3d5c5fa42c04ff10f46e13998909731004348945bcb1bc3e0f173c569f5bd6ab",
+      "bytes": 1157
+    },
+    "data/CEILINGS-240181-DEEPSEARCH-2026-07-24.json": {
+      "sha256": "9629021dd82f643b210d0cd650e12e490639b5670b5819b3625ad4b4ae2cd451",
+      "bytes": 2525
+    },
+    "data/CEILINGS-PRESERVATION.json": {
+      "sha256": "8f1a1b632e7cbc89653d22387d5c116f12052844666c7b9bfe4b8262b6a34e8b",
+      "bytes": 2465
+    },
+    "data/H2-RESULTS-2026-07-23.json": {
+      "sha256": "8afddd93d399ad39ca0b3d9edea5889a97da70ed89270dc9bedc4cf196845f5f",
+      "bytes": 3050
+    },
+    "data/KE2-RESULTS-520377.json": {
+      "sha256": "90bfdf1de8646e41dc71abbe49366efa8f5ce81f4aa74a7c2e8054c8fa9366b7",
+      "bytes": 762
+    },
+    "data/KE3-RESERVE-550398.json": {
+      "sha256": "6e720ef63d21d3a74efa4f28d400e31a47c06abb3c944b31ca08d9f4ae6d9154",
+      "bytes": 1471
+    },
+    "data/LEADERBOARD-2026-07-23.json": {
+      "sha256": "385b9e51d875a008bd3eebfca0b9bb432aa1fcf9e771f2cd294e2e832fc6a90c",
+      "bytes": 6812
+    },
+    "data/README.md": {
+      "sha256": "7d10e15eef6c9377bcc385172993a89b984c7473d36709320b6e037ee3e04514",
+      "bytes": 2609
+    },
+    "replays/claude-haiku-4-5_crisis_280209.json": {
+      "sha256": "a7cc1d02ee08f36263a15b05bcfa618b7a7f080d9952355502b6c7f4303e2279",
+      "bytes": 5300
+    },
+    "replays/claude-haiku-4-5_crisis_420307.json": {
+      "sha256": "ccf04f492c9c1e0300854435bbf3bd4b4cda5ef36d2f6a7c22e01b9377abee48",
+      "bytes": 5226
+    },
+    "replays/claude-haiku-4-5_crisis_450328.json": {
+      "sha256": "e4f61669b3c8c24b6d61d5605c4ae74854d06c5197fb4e34fd1f198211488d2c",
+      "bytes": 4795
+    },
+    "replays/claude-haiku-4-5_development_210160.json": {
+      "sha256": "d209ecad1ef46945e7e630654887e50161842b7cf1697a0d81a9dba5ce324143",
+      "bytes": 12766
+    },
+    "replays/claude-haiku-4-5_development_30034.json": {
+      "sha256": "92e2b7914b1a63c2fffbdabe56ccde244eb793486e1fe60dd5b4ef41d9b9eb95",
+      "bytes": 12074
+    },
+    "replays/claude-haiku-4-5_development_330244.json": {
+      "sha256": "e4bba5a47c60efa4016b48576f3141b1496ed2eed62aaedf31e22d0b482b0cf1",
+      "bytes": 12813
+    },
+    "replays/claude-haiku-4-5_first-llm-run_97013.json": {
+      "sha256": "7b536d1aff8a1a1bf2d8160adca715bd4a6913539542550a8413603369dffd3e",
+      "bytes": 6849
+    },
+    "replays/claude-haiku-4-5_preservation_240181.json": {
+      "sha256": "9b54bedb0a66af6bb641f8014a1b50e7f8f1eb9e0b5bdbc549af0cbc12bb8bfd",
+      "bytes": 25731
+    },
+    "replays/claude-sonnet-4-5_crisis_280209.json": {
+      "sha256": "4de853c9cf46752810a1fa340cfff2e3c0d871d37407b255dc37befe6703bf45",
+      "bytes": 4363
+    },
+    "replays/claude-sonnet-4-5_crisis_420307.json": {
+      "sha256": "47933100862d1eb1e839062e6d22f774e0ee311cafa412a81b02aa65df34185c",
+      "bytes": 4378
+    },
+    "replays/claude-sonnet-4-5_crisis_450328.json": {
+      "sha256": "92abc428ca181d84468eb4065d594c0ee209c4f8948cbe8c11dd4cc8caf63c15",
+      "bytes": 4339
+    },
+    "replays/claude-sonnet-4-5_development_210160.json": {
+      "sha256": "c31d4d9b656a10ecf4274bb76ff2f73fcb6e66a27e5f36c426560d1e7e86940c",
+      "bytes": 10947
+    },
+    "replays/claude-sonnet-4-5_development_30034.json": {
+      "sha256": "b1af60af8432c318a0e048b8762abed0adfa80399a4954043c163c83c9bc25c2",
+      "bytes": 11101
+    },
+    "replays/claude-sonnet-4-5_development_330244.json": {
+      "sha256": "5d0827f87ab533bd16e00932891e5bb30815cf31f48b91b91437eae32b938186",
+      "bytes": 12358
+    },
+    "replays/claude-sonnet-4-5_preservation_240181.json": {
+      "sha256": "4f9864c688a05efa78cb1289c67c7ec30dc831bc0d39f93ae6b022f50d971c18",
+      "bytes": 24856
+    }
+  }
+}
