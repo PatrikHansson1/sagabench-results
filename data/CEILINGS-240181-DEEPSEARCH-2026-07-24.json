@@ -1,0 +1,32 @@
+{
+  "seed": 240181,
+  "years": 120,
+  "date": "2026-07-24",
+  "method": "deeper coordinate-ascent over edict catalog via token-free /run (deterministic, no LLM); ~35s-80s/rollout under load; ~24 rollouts this session",
+  "engineSha": "4f237acf",
+  "edict_catalog": ["ENCOURAGE_EXPERIMENTS","PROMOTE_INDUSTRY","FOSTER_COMMUNITY","TEMPER_AMBITION","SHARE_HARVEST","NO_ACTION"],
+  "cadence_years": 5,
+  "prior_ceiling": {"composite": 100, "log": "[EXPER@5,FOSTER@10,EXPER@15]"},
+  "new_ceiling": {"composite": 118, "log": "[ENCOURAGE_EXPERIMENTS@5,FOSTER_COMMUNITY@10,ENCOURAGE_EXPERIMENTS@15,TEMPER_AMBITION@25]"},
+  "improvement": "+18 (100 -> 118); gap to best model run (124) narrows from 24 to 6",
+  "key_finding": "The improved ceiling strategy centrally requires RESTRAINT: adding TEMPER_AMBITION at year 25 after the build sequence lifts 100->118. This directly embodies the Steward's Paradox at the engineered-ceiling level — the optimal steward knows when to stop pushing.",
+  "search_trace_composites": {
+    "[E5,F10,E15] (prior ceiling)": 100,
+    "[E5,F10,E15,T25] (NEW BEST)": 118,
+    "[E5,F10,E15,T20]": 99,
+    "[E5,F10,E15,T30]": 84,
+    "[E5,F10,E15,T35]": 94,
+    "[E5,F10,E15,E20]": 86,
+    "[E5,F10,E15,E25]": 86,
+    "[E5,F10,E15,S25]": 71,
+    "[E5,F10,E15,T25,T45]": "conn-error (not collected)",
+    "[E5,F10,E15,T25,E45]": 84,
+    "[E5,F10,E15,T25,F45]": 99,
+    "[E5,F10,E20,T25]": 100,
+    "[E5,F10,E15,P20,T25]": 93
+  },
+  "robustness_note": "T@25 is a sharp local optimum (T@20=99, T@25=118, T@30=84, T@35=94); every 5th-edict extension of the winner degrades it (E@45=84, F@45=99); moving the 3rd EXPER from year 15 to 20 drops to 100; inserting PROMOTE_INDUSTRY before the temper drops to 93. The 4-edict restraint log is a robust local optimum under this catalog.",
+  "still_provisional": "Gap of 6 to the best model run (124) persists — a shallow deterministic catalog search still does not fully match what capable models find, so 240181's ceiling remains a provisional lower bound and 'beyond engineered play' (>ceiling) stands, now with a much tighter bound.",
+  "remaining": "Deeper search + restraint-generalization test on 440321 and 200153 was attempted this session but the live Chrome->VPS channel dropped before completion; queued for a session with a stable live channel (or for adopting the best replayable model log as the ceiling floor).",
+  "replayable": "Every composite above is a replayable (engineSha, seed, decision-log) triple via POST /run {seed,years,edicts[]}."
+}

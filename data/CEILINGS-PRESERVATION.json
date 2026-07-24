@@ -1,0 +1,37 @@
+{
+  "provisional_ceilings": {
+    "240181": 118,
+    "440321": 81,
+    "200153": 78
+  },
+  "ceiling_logs": {
+    "240181": "[ENCOURAGE_EXPERIMENTS@5,FOSTER_COMMUNITY@10,ENCOURAGE_EXPERIMENTS@15,TEMPER_AMBITION@25]",
+    "440321": "[EXPER@12]",
+    "200153": "[EXPER@10,EXPER@15]"
+  },
+  "method": "coordinate-ascent hill-climb over edict catalog via token-free /run. 240181 deepened 2026-07-24 (~24 rollouts, longer sequences + timing sweep); 440321/200153 still at shallow-search depth.",
+  "status": "provisional lower bounds. 240181 raised 100->118 (2026-07-24): the deeper search found that adding TEMPER_AMBITION@25 (restraint) after the build sequence lifts the ceiling by 18 and narrows the gap to the best model run (124) from 24 to 6. Gap persists -> ceiling stays a provisional lower bound; 'beyond engineered play' (>ceiling) stands. 440321/200153 deeper search + restraint-generalization queued (live channel dropped mid-run 2026-07-24). Full 240181 trace: CEILINGS-240181-DEEPSEARCH-2026-07-24.json.",
+  "key_finding_240181": "The engineered-ceiling strategy centrally requires restraint (TEMPER_AMBITION), directly embodying the Steward's Paradox at the ceiling level: the optimal steward knows when to stop pushing. T@25 is a sharp optimum (T@20=99, T@25=118, T@30=84); every 5th-edict extension degrades it.",
+  "beyond_ceiling_cells": [
+    "NOTE 2026-07-24: after raising the 240181 ceiling to 118, claude-opus-4-6@240181(delta124) still exceeds it (idx now ~105); the other cells below were computed against the old 100/81/78 ceilings and their idx values are recomputed at Season-1 index-lock.",
+    "claude-haiku-4-5@200153(Δ103→idx116)",
+    "claude-sonnet-4-5@440321(Δ114→idx120)",
+    "claude-sonnet-5@200153(Δ87→idx106)",
+    "claude-opus-4-5@440321(Δ112→idx119)",
+    "claude-opus-4-5@200153(Δ91→idx108)",
+    "claude-fable-5@200153(Δ89→idx107)",
+    "gpt-5-mini@440321(Δ97→idx110)",
+    "gpt-5-mini@200153(Δ85→idx104)",
+    "gpt-5.1@440321(Δ100→idx112)",
+    "claude-opus-4-7@440321(Δ96→idx109)",
+    "claude-opus-4-6@240181(Δ124→idx112, recompute vs 118)",
+    "claude-opus-4-6@440321(Δ88→idx104)",
+    "claude-opus-4-6@200153(Δ104→idx117)",
+    "claude-sonnet-4-6@440321(Δ105→idx115)",
+    "claude-sonnet-4-6@200153(Δ95→idx111)",
+    "gpt-5.6-terra@200153(Δ116→idx124)",
+    "gpt-5.5@200153(Δ79→idx101)",
+    "gpt-5.4@440321(Δ114→idx120)",
+    "gpt-5.4@200153(Δ84→idx104)"
+  ]
+}

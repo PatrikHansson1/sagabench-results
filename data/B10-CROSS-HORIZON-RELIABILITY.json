@@ -1,0 +1,114 @@
+{
+  "batch": "B10",
+  "collected": "2026-07-23",
+  "design": "5-model panel x {Crisis 450328/20y, Development 210160/60y} x N=5; pairs with 240181 (B7/B8) for the 3-horizon comparison.",
+  "crisis_450328": {
+    "opus-4-8": [
+      4,
+      14,
+      41,
+      14,
+      4
+    ],
+    "deepseek-v3.2": [
+      22,
+      22,
+      22,
+      22,
+      22
+    ],
+    "gpt-4o": [
+      22,
+      22,
+      14,
+      36,
+      28
+    ],
+    "gpt-5.6-terra": [
+      3,
+      3,
+      28,
+      4,
+      3
+    ],
+    "sonnet-5": [
+      22,
+      22,
+      21,
+      28,
+      22
+    ]
+  },
+  "development_210160": {
+    "opus-4-8": [
+      -7,
+      14,
+      18,
+      12,
+      15
+    ],
+    "deepseek-v3.2": [
+      15,
+      34,
+      23,
+      22,
+      26
+    ],
+    "gpt-4o": [
+      31,
+      53,
+      9,
+      42,
+      14
+    ],
+    "gpt-5.6-terra": [
+      41,
+      30,
+      47,
+      23,
+      14
+    ],
+    "sonnet-5": [
+      22,
+      17,
+      23,
+      -5,
+      22
+    ]
+  },
+  "extinctions": "none (0/50)",
+  "key_stats": {
+    "within_cell_noise_sd": {
+      "crisis_450328": 9,
+      "development_210160": 13,
+      "preservation_240181": 104,
+      "preservation_440321": 58,
+      "preservation_200153": 28
+    },
+    "between_model_signal_sd": {
+      "crisis": 7,
+      "development": 9,
+      "preservation_240181": 85
+    },
+    "ICC": {
+      "crisis": 0.25,
+      "development": 0.23,
+      "preservation_240181": 0.32
+    },
+    "single_run_tau_vs_5run_mean": {
+      "crisis": 0.56,
+      "development": 0.4,
+      "preservation_240181": 0.64
+    },
+    "deepseek_within_cell_sd_by_horizon": {
+      "crisis": 0.0,
+      "development": 6.9,
+      "preservation_240181": 156.4
+    },
+    "extinctions_by_preservation_seed": {
+      "240181": "5/20",
+      "440321": "0/20",
+      "200153": "0/20"
+    }
+  }
+}

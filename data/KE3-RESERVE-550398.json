@@ -1,0 +1,41 @@
+{
+  "batch": "B12 (KE3 reserve knife-edge 550398)",
+  "seed": 550398,
+  "years": 120,
+  "collected": "2026-07-24",
+  "prereg": "reserve seed from PREREG-KNIFE-EDGE-2.md (locked before any LLM run)",
+  "panel": {
+    "opus-4-8": [
+      -83,
+      27,
+      -41,
+      39,
+      40
+    ],
+    "deepseek-v3.2": [
+      -21,
+      22,
+      36,
+      1,
+      -27
+    ],
+    "haiku-4-5": [
+      -18,
+      -69,
+      -16,
+      -87,
+      -54
+    ],
+    "sonnet-5": [
+      48,
+      -75,
+      -10,
+      8,
+      41
+    ]
+  },
+  "extinctions": 0,
+  "verdict": "ZERO extinctions across all 4 models (incl. the heavy-tail models opus-4-8 & deepseek). 550398 \u2014 despite screening \u2014 is robust to extinction at 120y (its untouched baseline survives at pop 7, more robust than 520377's pop 1). REINFORCES seed-specificity: the lethal tail requires a genuinely fragile knife-edge, not merely a 120y horizon or a dramatic 60y screen. Of worlds tested for the tail: 240181 (fragile) and 520377 (baseline pop 1) triggered extinctions; 440321/200153/550398 (more robust) did not.",
+  "paper_consequence": "Minor reinforcement of finding-4/\u00a76.4 fragility-dependence; no core claim changes. Note: 'drama screening' at 60y does not perfectly predict 120y fragility \u2014 a refinement worth one sentence.",
+  "note_haiku": "On this violent-friction world haiku did WORST (mean -49, all survived) \u2014 another horizon/world-dependent ranking flip, consistent with H4."
+}

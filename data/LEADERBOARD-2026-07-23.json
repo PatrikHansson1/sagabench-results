@@ -1,0 +1,314 @@
+{
+  "generated": "2026-07-23",
+  "n_models": 23,
+  "score": "median composite index across 9-seed matrix (3x20y crisis, 3x60y development, 3x120y preservation)",
+  "note": "gemini-2.5-flash/pro excluded (404 dead on Google). Extinction = civilizational collapse (survived=false); all observed extinctions occur on paradox seed 240181.",
+  "seeds": [
+    420307,
+    450328,
+    280209,
+    30034,
+    210160,
+    330244,
+    240181,
+    440321,
+    200153
+  ],
+  "years": [
+    20,
+    20,
+    20,
+    60,
+    60,
+    60,
+    120,
+    120,
+    120
+  ],
+  "ranking": [
+    {
+      "model": "claude-fable-5",
+      "provider": "anthropic",
+      "median_full": 31.0,
+      "median_crisis": -3.0,
+      "median_dev": -9.0,
+      "median_pres": 89.0,
+      "min": -16,
+      "max": 95,
+      "seed240181": 95,
+      "extinctions": []
+    },
+    {
+      "model": "claude-opus-4-5",
+      "provider": "anthropic",
+      "median_full": 27.0,
+      "median_crisis": -3.0,
+      "median_dev": 4.0,
+      "median_pres": 91.0,
+      "min": -13,
+      "max": 112,
+      "seed240181": 61,
+      "extinctions": []
+    },
+    {
+      "model": "claude-sonnet-5",
+      "provider": "anthropic",
+      "median_full": 22.0,
+      "median_crisis": -3.0,
+      "median_dev": 12.0,
+      "median_pres": 57.0,
+      "min": -26,
+      "max": 87,
+      "seed240181": 57,
+      "extinctions": []
+    },
+    {
+      "model": "claude-sonnet-4-6",
+      "provider": "anthropic",
+      "median_full": 22.0,
+      "median_crisis": -3.0,
+      "median_dev": 5.0,
+      "median_pres": 95.0,
+      "min": -13,
+      "max": 105,
+      "seed240181": 51,
+      "extinctions": []
+    },
+    {
+      "model": "gpt-5.5",
+      "provider": "openai",
+      "median_full": 22.0,
+      "median_crisis": -3.0,
+      "median_dev": 22.0,
+      "median_pres": 79.0,
+      "min": -22,
+      "max": 79,
+      "seed240181": 30,
+      "extinctions": []
+    },
+    {
+      "model": "claude-sonnet-4-5",
+      "provider": "anthropic",
+      "median_full": 18.0,
+      "median_crisis": -10.0,
+      "median_dev": 13.0,
+      "median_pres": 71.0,
+      "min": -13,
+      "max": 114,
+      "seed240181": 32,
+      "extinctions": []
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "provider": "openai",
+      "median_full": 17.0,
+      "median_crisis": -10.0,
+      "median_dev": 12.0,
+      "median_pres": 74.0,
+      "min": -17,
+      "max": 81,
+      "seed240181": 81,
+      "extinctions": []
+    },
+    {
+      "model": "claude-haiku-4-5",
+      "provider": "anthropic",
+      "median_full": 16.0,
+      "median_crisis": -3.0,
+      "median_dev": 12.0,
+      "median_pres": 48.0,
+      "min": -13,
+      "max": 103,
+      "seed240181": 48,
+      "extinctions": []
+    },
+    {
+      "model": "gpt-5.1",
+      "provider": "openai",
+      "median_full": 13.0,
+      "median_crisis": -3.0,
+      "median_dev": 7.0,
+      "median_pres": 57.0,
+      "min": -13,
+      "max": 100,
+      "seed240181": 50,
+      "extinctions": []
+    },
+    {
+      "model": "claude-opus-4-6",
+      "provider": "anthropic",
+      "median_full": 13.0,
+      "median_crisis": -3.0,
+      "median_dev": 13.0,
+      "median_pres": 104.0,
+      "min": -7,
+      "max": 124,
+      "seed240181": 124,
+      "extinctions": []
+    },
+    {
+      "model": "gpt-5.4",
+      "provider": "openai",
+      "median_full": 12.0,
+      "median_crisis": -3.0,
+      "median_dev": 12.0,
+      "median_pres": 84.0,
+      "min": -13,
+      "max": 114,
+      "seed240181": 23,
+      "extinctions": []
+    },
+    {
+      "model": "llama-4-maverick",
+      "provider": "openrouter",
+      "median_full": 9.0,
+      "median_crisis": -3.0,
+      "median_dev": 9.0,
+      "median_pres": 55.0,
+      "min": -13,
+      "max": 71,
+      "seed240181": 71,
+      "extinctions": []
+    },
+    {
+      "model": "gpt-4o",
+      "provider": "openai",
+      "median_full": 4.0,
+      "median_crisis": 4.0,
+      "median_dev": -12.0,
+      "median_pres": 61.0,
+      "min": -255,
+      "max": 66,
+      "seed240181": -255,
+      "extinctions": [
+        "240181"
+      ]
+    },
+    {
+      "model": "deepseek-v3.2-exp",
+      "provider": "openrouter",
+      "median_full": 3.0,
+      "median_crisis": 4.0,
+      "median_dev": 3.0,
+      "median_pres": -38.0,
+      "min": -250,
+      "max": 35,
+      "seed240181": -250,
+      "extinctions": [
+        "240181"
+      ]
+    },
+    {
+      "model": "kimi-k2.6",
+      "provider": "openrouter",
+      "median_full": 3.0,
+      "median_crisis": 0.0,
+      "median_dev": -26.0,
+      "median_pres": 45.0,
+      "min": -32,
+      "max": 55,
+      "seed240181": 31,
+      "extinctions": []
+    },
+    {
+      "model": "gpt-4o-mini",
+      "provider": "openai",
+      "median_full": 2.0,
+      "median_crisis": -13.0,
+      "median_dev": 15.0,
+      "median_pres": -17.0,
+      "min": -109,
+      "max": 35,
+      "seed240181": -17,
+      "extinctions": []
+    },
+    {
+      "model": "gemini-3-flash-preview",
+      "provider": "google",
+      "median_full": 2.0,
+      "median_crisis": -9.0,
+      "median_dev": -6.0,
+      "median_pres": 35.0,
+      "min": -34,
+      "max": 43,
+      "seed240181": 35,
+      "extinctions": []
+    },
+    {
+      "model": "glm-5.2",
+      "provider": "openrouter",
+      "median_full": 0.0,
+      "median_crisis": 0.0,
+      "median_dev": 1.0,
+      "median_pres": 36.0,
+      "min": -23,
+      "max": 64,
+      "seed240181": 64,
+      "extinctions": []
+    },
+    {
+      "model": "glm-5.1",
+      "provider": "openrouter",
+      "median_full": 0.0,
+      "median_crisis": 0.0,
+      "median_dev": -15.0,
+      "median_pres": 3.0,
+      "min": -75,
+      "max": 31,
+      "seed240181": 3,
+      "extinctions": []
+    },
+    {
+      "model": "claude-opus-4-7",
+      "provider": "anthropic",
+      "median_full": -1.0,
+      "median_crisis": -13.0,
+      "median_dev": -1.0,
+      "median_pres": 63.0,
+      "min": -48,
+      "max": 96,
+      "seed240181": 63,
+      "extinctions": []
+    },
+    {
+      "model": "gpt-5.6-terra",
+      "provider": "openai",
+      "median_full": -1.0,
+      "median_crisis": -3.0,
+      "median_dev": 1.0,
+      "median_pres": -22.0,
+      "min": -255,
+      "max": 116,
+      "seed240181": -255,
+      "extinctions": [
+        "240181"
+      ]
+    },
+    {
+      "model": "claude-opus-4-8",
+      "provider": "anthropic",
+      "median_full": -3.0,
+      "median_crisis": -3.0,
+      "median_dev": -1.0,
+      "median_pres": -16.0,
+      "min": -246,
+      "max": 40,
+      "seed240181": -246,
+      "extinctions": [
+        "240181"
+      ]
+    },
+    {
+      "model": "gpt-5-mini",
+      "provider": "openai",
+      "median_full": -3.0,
+      "median_crisis": -3.0,
+      "median_dev": -6.0,
+      "median_pres": 85.0,
+      "min": -34,
+      "max": 97,
+      "seed240181": -5,
+      "extinctions": []
+    }
+  ]
+}

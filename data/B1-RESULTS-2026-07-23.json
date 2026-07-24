@@ -1,0 +1,1296 @@
+{
+  "batch": "B1",
+  "description": "H2 sweep: 15 models x 9 seeds (3x20yr, 3x60yr, 3x120yr). Composite = counterfactual steward score.",
+  "collected": "2026-07-23",
+  "collected_by": "session 14 (VD), fetched from VPS 167.233.217.234:8787/batch/B1 via Claude-in-Chrome",
+  "note": "Faithful reconstruction from the server's in-memory /batch/B1 payload. Verbose google 404 error strings collapsed to code 404 ('model no longer available to new users'); all composite scores, survived flags and error cells preserved exactly.",
+  "status": "done",
+  "total": 135,
+  "done": 135,
+  "seed_order": [
+    420307,
+    450328,
+    280209,
+    30034,
+    210160,
+    330244,
+    240181,
+    440321,
+    200153
+  ],
+  "years_order": [
+    20,
+    20,
+    20,
+    60,
+    60,
+    60,
+    120,
+    120,
+    120
+  ],
+  "n_success": 117,
+  "n_error": 18,
+  "extinctions": [
+    {
+      "model": "claude-opus-4-8",
+      "seed": 240181,
+      "composite": -246
+    },
+    {
+      "model": "deepseek/deepseek-v3.2-exp",
+      "seed": 240181,
+      "composite": -250
+    },
+    {
+      "model": "gpt-4o",
+      "seed": 240181,
+      "composite": -255
+    }
+  ],
+  "reruns": "claude-opus-4-5-20251101 @440321 and @200153 initially HTTP 529; rerun 2026-07-23 -> composite 112 and 91 (both survived). Matrix now complete for all non-gemini models.",
+  "dead_models": [
+    "gemini-2.5-flash (404 all seeds)",
+    "gemini-2.5-pro (404 all seeds)"
+  ],
+  "summary_by_model": {
+    "claude-haiku-4-5-20251001": {
+      "provider": "anthropic",
+      "n": 9,
+      "median": 16,
+      "mean": 22.8,
+      "min": -13,
+      "max": 103,
+      "extinctions": 0,
+      "seed240181": 48
+    },
+    "claude-sonnet-4-5-20250929": {
+      "provider": "anthropic",
+      "n": 9,
+      "median": 18,
+      "mean": 27.7,
+      "min": -13,
+      "max": 114,
+      "extinctions": 0,
+      "seed240181": 32
+    },
+    "claude-sonnet-5": {
+      "provider": "anthropic",
+      "n": 9,
+      "median": 22,
+      "mean": 23.9,
+      "min": -26,
+      "max": 87,
+      "extinctions": 0,
+      "seed240181": 57
+    },
+    "claude-opus-4-5-20251101": {
+      "provider": "anthropic",
+      "n": 9,
+      "median": 27,
+      "mean": 35.4,
+      "min": -13,
+      "max": 112,
+      "extinctions": 0,
+      "seed240181": 61
+    },
+    "claude-opus-4-8": {
+      "provider": "anthropic",
+      "n": 9,
+      "median": -3,
+      "mean": -26.9,
+      "min": -246,
+      "max": 40,
+      "extinctions": 1,
+      "seed240181": -246
+    },
+    "claude-fable-5": {
+      "provider": "anthropic",
+      "n": 9,
+      "median": 31,
+      "mean": 27.8,
+      "min": -16,
+      "max": 95,
+      "extinctions": 0,
+      "seed240181": 95
+    },
+    "gpt-4o-mini": {
+      "provider": "openai",
+      "n": 9,
+      "median": 2,
+      "mean": -5.7,
+      "min": -109,
+      "max": 35,
+      "extinctions": 0,
+      "seed240181": -17
+    },
+    "gpt-4o": {
+      "provider": "openai",
+      "n": 9,
+      "median": 4,
+      "mean": -11.1,
+      "min": -255,
+      "max": 66,
+      "extinctions": 1,
+      "seed240181": -255
+    },
+    "gpt-5-mini": {
+      "provider": "openai",
+      "n": 9,
+      "median": -3,
+      "mean": 18.1,
+      "min": -34,
+      "max": 97,
+      "extinctions": 0,
+      "seed240181": -5
+    },
+    "gpt-5.1": {
+      "provider": "openai",
+      "n": 9,
+      "median": 13,
+      "mean": 25,
+      "min": -13,
+      "max": 100,
+      "extinctions": 0,
+      "seed240181": 50
+    },
+    "gemini-2.5-flash": {
+      "n": 0,
+      "note": "all cells errored (model unavailable)"
+    },
+    "gemini-2.5-pro": {
+      "n": 0,
+      "note": "all cells errored (model unavailable)"
+    },
+    "gemini-3-flash-preview": {
+      "provider": "google",
+      "n": 9,
+      "median": 2,
+      "mean": 7,
+      "min": -34,
+      "max": 43,
+      "extinctions": 0,
+      "seed240181": 35
+    },
+    "meta-llama/llama-4-maverick": {
+      "provider": "openrouter",
+      "n": 9,
+      "median": 9,
+      "mean": 16.6,
+      "min": -13,
+      "max": 71,
+      "extinctions": 0,
+      "seed240181": 71
+    },
+    "deepseek/deepseek-v3.2-exp": {
+      "provider": "openrouter",
+      "n": 9,
+      "median": 3,
+      "mean": -30.6,
+      "min": -250,
+      "max": 35,
+      "extinctions": 1,
+      "seed240181": -250
+    }
+  },
+  "results": [
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "provider": "anthropic",
+      "seed": 420307,
+      "years": 20,
+      "composite": -3,
+      "survived": true
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "provider": "anthropic",
+      "seed": 450328,
+      "years": 20,
+      "composite": 30,
+      "survived": true
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "provider": "anthropic",
+      "seed": 280209,
+      "years": 20,
+      "composite": -13,
+      "survived": true
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "provider": "anthropic",
+      "seed": 30034,
+      "years": 60,
+      "composite": -12,
+      "survived": true
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "provider": "anthropic",
+      "seed": 210160,
+      "years": 60,
+      "composite": 24,
+      "survived": true
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "provider": "anthropic",
+      "seed": 330244,
+      "years": 60,
+      "composite": 12,
+      "survived": true
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "provider": "anthropic",
+      "seed": 240181,
+      "years": 120,
+      "composite": 48,
+      "survived": true
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "provider": "anthropic",
+      "seed": 440321,
+      "years": 120,
+      "composite": 16,
+      "survived": true
+    },
+    {
+      "model": "claude-haiku-4-5-20251001",
+      "provider": "anthropic",
+      "seed": 200153,
+      "years": 120,
+      "composite": 103,
+      "survived": true
+    },
+    {
+      "model": "claude-sonnet-4-5-20250929",
+      "provider": "anthropic",
+      "seed": 420307,
+      "years": 20,
+      "composite": -10,
+      "survived": true
+    },
+    {
+      "model": "claude-sonnet-4-5-20250929",
+      "provider": "anthropic",
+      "seed": 450328,
+      "years": 20,
+      "composite": 18,
+      "survived": true
+    },
+    {
+      "model": "claude-sonnet-4-5-20250929",
+      "provider": "anthropic",
+      "seed": 280209,
+      "years": 20,
+      "composite": -13,
+      "survived": true
+    },
+    {
+      "model": "claude-sonnet-4-5-20250929",
+      "provider": "anthropic",
+      "seed": 30034,
+      "years": 60,
+      "composite": 13,
+      "survived": true
+    },
+    {
+      "model": "claude-sonnet-4-5-20250929",
+      "provider": "anthropic",
+      "seed": 210160,
+      "years": 60,
+      "composite": 29,
+      "survived": true
+    },
+    {
+      "model": "claude-sonnet-4-5-20250929",
+      "provider": "anthropic",
+      "seed": 330244,
+      "years": 60,
+      "composite": -5,
+      "survived": true
+    },
+    {
+      "model": "claude-sonnet-4-5-20250929",
+      "provider": "anthropic",
+      "seed": 240181,
+      "years": 120,
+      "composite": 32,
+      "survived": true
+    },
+    {
+      "model": "claude-sonnet-4-5-20250929",
+      "provider": "anthropic",
+      "seed": 440321,
+      "years": 120,
+      "composite": 114,
+      "survived": true
+    },
+    {
+      "model": "claude-sonnet-4-5-20250929",
+      "provider": "anthropic",
+      "seed": 200153,
+      "years": 120,
+      "composite": 71,
+      "survived": true
+    },
+    {
+      "model": "claude-sonnet-5",
+      "provider": "anthropic",
+      "seed": 420307,
+      "years": 20,
+      "composite": -3,
+      "survived": true
+    },
+    {
+      "model": "claude-sonnet-5",
+      "provider": "anthropic",
+      "seed": 450328,
+      "years": 20,
+      "composite": 22,
+      "survived": true
+    },
+    {
+      "model": "claude-sonnet-5",
+      "provider": "anthropic",
+      "seed": 280209,
+      "years": 20,
+      "composite": -26,
+      "survived": true
+    },
+    {
+      "model": "claude-sonnet-5",
+      "provider": "anthropic",
+      "seed": 30034,
+      "years": 60,
+      "composite": -6,
+      "survived": true
+    },
+    {
+      "model": "claude-sonnet-5",
+      "provider": "anthropic",
+      "seed": 210160,
+      "years": 60,
+      "composite": 27,
+      "survived": true
+    },
+    {
+      "model": "claude-sonnet-5",
+      "provider": "anthropic",
+      "seed": 330244,
+      "years": 60,
+      "composite": 12,
+      "survived": true
+    },
+    {
+      "model": "claude-sonnet-5",
+      "provider": "anthropic",
+      "seed": 240181,
+      "years": 120,
+      "composite": 57,
+      "survived": true
+    },
+    {
+      "model": "claude-sonnet-5",
+      "provider": "anthropic",
+      "seed": 440321,
+      "years": 120,
+      "composite": 45,
+      "survived": true
+    },
+    {
+      "model": "claude-sonnet-5",
+      "provider": "anthropic",
+      "seed": 200153,
+      "years": 120,
+      "composite": 87,
+      "survived": true
+    },
+    {
+      "model": "claude-opus-4-5-20251101",
+      "provider": "anthropic",
+      "seed": 420307,
+      "years": 20,
+      "composite": -3,
+      "survived": true
+    },
+    {
+      "model": "claude-opus-4-5-20251101",
+      "provider": "anthropic",
+      "seed": 450328,
+      "years": 20,
+      "composite": 27,
+      "survived": true
+    },
+    {
+      "model": "claude-opus-4-5-20251101",
+      "provider": "anthropic",
+      "seed": 280209,
+      "years": 20,
+      "composite": -13,
+      "survived": true
+    },
+    {
+      "model": "claude-opus-4-5-20251101",
+      "provider": "anthropic",
+      "seed": 30034,
+      "years": 60,
+      "composite": 4,
+      "survived": true
+    },
+    {
+      "model": "claude-opus-4-5-20251101",
+      "provider": "anthropic",
+      "seed": 210160,
+      "years": 60,
+      "composite": 38,
+      "survived": true
+    },
+    {
+      "model": "claude-opus-4-5-20251101",
+      "provider": "anthropic",
+      "seed": 330244,
+      "years": 60,
+      "composite": 2,
+      "survived": true
+    },
+    {
+      "model": "claude-opus-4-5-20251101",
+      "provider": "anthropic",
+      "seed": 240181,
+      "years": 120,
+      "composite": 61,
+      "survived": true
+    },
+    {
+      "model": "claude-opus-4-5-20251101",
+      "provider": "anthropic",
+      "seed": 440321,
+      "years": 120,
+      "composite": 112,
+      "survived": true
+    },
+    {
+      "model": "claude-opus-4-5-20251101",
+      "provider": "anthropic",
+      "seed": 200153,
+      "years": 120,
+      "composite": 91,
+      "survived": true
+    },
+    {
+      "model": "claude-opus-4-8",
+      "provider": "anthropic",
+      "seed": 420307,
+      "years": 20,
+      "composite": -3,
+      "survived": true
+    },
+    {
+      "model": "claude-opus-4-8",
+      "provider": "anthropic",
+      "seed": 450328,
+      "years": 20,
+      "composite": 4,
+      "survived": true
+    },
+    {
+      "model": "claude-opus-4-8",
+      "provider": "anthropic",
+      "seed": 280209,
+      "years": 20,
+      "composite": -13,
+      "survived": true
+    },
+    {
+      "model": "claude-opus-4-8",
+      "provider": "anthropic",
+      "seed": 30034,
+      "years": 60,
+      "composite": -15,
+      "survived": true
+    },
+    {
+      "model": "claude-opus-4-8",
+      "provider": "anthropic",
+      "seed": 210160,
+      "years": 60,
+      "composite": 8,
+      "survived": true
+    },
+    {
+      "model": "claude-opus-4-8",
+      "provider": "anthropic",
+      "seed": 330244,
+      "years": 60,
+      "composite": -1,
+      "survived": true
+    },
+    {
+      "model": "claude-opus-4-8",
+      "provider": "anthropic",
+      "seed": 240181,
+      "years": 120,
+      "composite": -246,
+      "survived": false
+    },
+    {
+      "model": "claude-opus-4-8",
+      "provider": "anthropic",
+      "seed": 440321,
+      "years": 120,
+      "composite": -16,
+      "survived": true
+    },
+    {
+      "model": "claude-opus-4-8",
+      "provider": "anthropic",
+      "seed": 200153,
+      "years": 120,
+      "composite": 40,
+      "survived": true
+    },
+    {
+      "model": "claude-fable-5",
+      "provider": "anthropic",
+      "seed": 420307,
+      "years": 20,
+      "composite": -3,
+      "survived": true
+    },
+    {
+      "model": "claude-fable-5",
+      "provider": "anthropic",
+      "seed": 450328,
+      "years": 20,
+      "composite": 34,
+      "survived": true
+    },
+    {
+      "model": "claude-fable-5",
+      "provider": "anthropic",
+      "seed": 280209,
+      "years": 20,
+      "composite": -15,
+      "survived": true
+    },
+    {
+      "model": "claude-fable-5",
+      "provider": "anthropic",
+      "seed": 30034,
+      "years": 60,
+      "composite": -16,
+      "survived": true
+    },
+    {
+      "model": "claude-fable-5",
+      "provider": "anthropic",
+      "seed": 210160,
+      "years": 60,
+      "composite": 31,
+      "survived": true
+    },
+    {
+      "model": "claude-fable-5",
+      "provider": "anthropic",
+      "seed": 330244,
+      "years": 60,
+      "composite": -9,
+      "survived": true
+    },
+    {
+      "model": "claude-fable-5",
+      "provider": "anthropic",
+      "seed": 240181,
+      "years": 120,
+      "composite": 95,
+      "survived": true
+    },
+    {
+      "model": "claude-fable-5",
+      "provider": "anthropic",
+      "seed": 440321,
+      "years": 120,
+      "composite": 44,
+      "survived": true
+    },
+    {
+      "model": "claude-fable-5",
+      "provider": "anthropic",
+      "seed": 200153,
+      "years": 120,
+      "composite": 89,
+      "survived": true
+    },
+    {
+      "model": "gpt-4o-mini",
+      "provider": "openai",
+      "seed": 420307,
+      "years": 20,
+      "composite": -14,
+      "survived": true
+    },
+    {
+      "model": "gpt-4o-mini",
+      "provider": "openai",
+      "seed": 450328,
+      "years": 20,
+      "composite": 31,
+      "survived": true
+    },
+    {
+      "model": "gpt-4o-mini",
+      "provider": "openai",
+      "seed": 280209,
+      "years": 20,
+      "composite": -13,
+      "survived": true
+    },
+    {
+      "model": "gpt-4o-mini",
+      "provider": "openai",
+      "seed": 30034,
+      "years": 60,
+      "composite": 2,
+      "survived": true
+    },
+    {
+      "model": "gpt-4o-mini",
+      "provider": "openai",
+      "seed": 210160,
+      "years": 60,
+      "composite": 19,
+      "survived": true
+    },
+    {
+      "model": "gpt-4o-mini",
+      "provider": "openai",
+      "seed": 330244,
+      "years": 60,
+      "composite": 15,
+      "survived": true
+    },
+    {
+      "model": "gpt-4o-mini",
+      "provider": "openai",
+      "seed": 240181,
+      "years": 120,
+      "composite": -17,
+      "survived": true
+    },
+    {
+      "model": "gpt-4o-mini",
+      "provider": "openai",
+      "seed": 440321,
+      "years": 120,
+      "composite": -109,
+      "survived": true
+    },
+    {
+      "model": "gpt-4o-mini",
+      "provider": "openai",
+      "seed": 200153,
+      "years": 120,
+      "composite": 35,
+      "survived": true
+    },
+    {
+      "model": "gpt-4o",
+      "provider": "openai",
+      "seed": 420307,
+      "years": 20,
+      "composite": -3,
+      "survived": true
+    },
+    {
+      "model": "gpt-4o",
+      "provider": "openai",
+      "seed": 450328,
+      "years": 20,
+      "composite": 34,
+      "survived": true
+    },
+    {
+      "model": "gpt-4o",
+      "provider": "openai",
+      "seed": 280209,
+      "years": 20,
+      "composite": 4,
+      "survived": true
+    },
+    {
+      "model": "gpt-4o",
+      "provider": "openai",
+      "seed": 30034,
+      "years": 60,
+      "composite": -12,
+      "survived": true
+    },
+    {
+      "model": "gpt-4o",
+      "provider": "openai",
+      "seed": 210160,
+      "years": 60,
+      "composite": 28,
+      "survived": true
+    },
+    {
+      "model": "gpt-4o",
+      "provider": "openai",
+      "seed": 330244,
+      "years": 60,
+      "composite": -23,
+      "survived": true
+    },
+    {
+      "model": "gpt-4o",
+      "provider": "openai",
+      "seed": 240181,
+      "years": 120,
+      "composite": -255,
+      "survived": false
+    },
+    {
+      "model": "gpt-4o",
+      "provider": "openai",
+      "seed": 440321,
+      "years": 120,
+      "composite": 66,
+      "survived": true
+    },
+    {
+      "model": "gpt-4o",
+      "provider": "openai",
+      "seed": 200153,
+      "years": 120,
+      "composite": 61,
+      "survived": true
+    },
+    {
+      "model": "gpt-5-mini",
+      "provider": "openai",
+      "seed": 420307,
+      "years": 20,
+      "composite": -3,
+      "survived": true
+    },
+    {
+      "model": "gpt-5-mini",
+      "provider": "openai",
+      "seed": 450328,
+      "years": 20,
+      "composite": 36,
+      "survived": true
+    },
+    {
+      "model": "gpt-5-mini",
+      "provider": "openai",
+      "seed": 280209,
+      "years": 20,
+      "composite": -34,
+      "survived": true
+    },
+    {
+      "model": "gpt-5-mini",
+      "provider": "openai",
+      "seed": 30034,
+      "years": 60,
+      "composite": -23,
+      "survived": true
+    },
+    {
+      "model": "gpt-5-mini",
+      "provider": "openai",
+      "seed": 210160,
+      "years": 60,
+      "composite": 16,
+      "survived": true
+    },
+    {
+      "model": "gpt-5-mini",
+      "provider": "openai",
+      "seed": 330244,
+      "years": 60,
+      "composite": -6,
+      "survived": true
+    },
+    {
+      "model": "gpt-5-mini",
+      "provider": "openai",
+      "seed": 240181,
+      "years": 120,
+      "composite": -5,
+      "survived": true
+    },
+    {
+      "model": "gpt-5-mini",
+      "provider": "openai",
+      "seed": 440321,
+      "years": 120,
+      "composite": 97,
+      "survived": true
+    },
+    {
+      "model": "gpt-5-mini",
+      "provider": "openai",
+      "seed": 200153,
+      "years": 120,
+      "composite": 85,
+      "survived": true
+    },
+    {
+      "model": "gpt-5.1",
+      "provider": "openai",
+      "seed": 420307,
+      "years": 20,
+      "composite": -3,
+      "survived": true
+    },
+    {
+      "model": "gpt-5.1",
+      "provider": "openai",
+      "seed": 450328,
+      "years": 20,
+      "composite": 19,
+      "survived": true
+    },
+    {
+      "model": "gpt-5.1",
+      "provider": "openai",
+      "seed": 280209,
+      "years": 20,
+      "composite": -13,
+      "survived": true
+    },
+    {
+      "model": "gpt-5.1",
+      "provider": "openai",
+      "seed": 30034,
+      "years": 60,
+      "composite": 13,
+      "survived": true
+    },
+    {
+      "model": "gpt-5.1",
+      "provider": "openai",
+      "seed": 210160,
+      "years": 60,
+      "composite": 7,
+      "survived": true
+    },
+    {
+      "model": "gpt-5.1",
+      "provider": "openai",
+      "seed": 330244,
+      "years": 60,
+      "composite": -5,
+      "survived": true
+    },
+    {
+      "model": "gpt-5.1",
+      "provider": "openai",
+      "seed": 240181,
+      "years": 120,
+      "composite": 50,
+      "survived": true
+    },
+    {
+      "model": "gpt-5.1",
+      "provider": "openai",
+      "seed": 440321,
+      "years": 120,
+      "composite": 100,
+      "survived": true
+    },
+    {
+      "model": "gpt-5.1",
+      "provider": "openai",
+      "seed": 200153,
+      "years": 120,
+      "composite": 57,
+      "survived": true
+    },
+    {
+      "model": "gemini-2.5-flash",
+      "provider": "google",
+      "seed": 420307,
+      "years": 20,
+      "error": "404",
+      "composite": null,
+      "survived": null
+    },
+    {
+      "model": "gemini-2.5-flash",
+      "provider": "google",
+      "seed": 450328,
+      "years": 20,
+      "error": "404",
+      "composite": null,
+      "survived": null
+    },
+    {
+      "model": "gemini-2.5-flash",
+      "provider": "google",
+      "seed": 280209,
+      "years": 20,
+      "error": "404",
+      "composite": null,
+      "survived": null
+    },
+    {
+      "model": "gemini-2.5-flash",
+      "provider": "google",
+      "seed": 30034,
+      "years": 60,
+      "error": "404",
+      "composite": null,
+      "survived": null
+    },
+    {
+      "model": "gemini-2.5-flash",
+      "provider": "google",
+      "seed": 210160,
+      "years": 60,
+      "error": "404",
+      "composite": null,
+      "survived": null
+    },
+    {
+      "model": "gemini-2.5-flash",
+      "provider": "google",
+      "seed": 330244,
+      "years": 60,
+      "error": "404",
+      "composite": null,
+      "survived": null
+    },
+    {
+      "model": "gemini-2.5-flash",
+      "provider": "google",
+      "seed": 240181,
+      "years": 120,
+      "error": "404",
+      "composite": null,
+      "survived": null
+    },
+    {
+      "model": "gemini-2.5-flash",
+      "provider": "google",
+      "seed": 440321,
+      "years": 120,
+      "error": "404",
+      "composite": null,
+      "survived": null
+    },
+    {
+      "model": "gemini-2.5-flash",
+      "provider": "google",
+      "seed": 200153,
+      "years": 120,
+      "error": "404",
+      "composite": null,
+      "survived": null
+    },
+    {
+      "model": "gemini-2.5-pro",
+      "provider": "google",
+      "seed": 420307,
+      "years": 20,
+      "error": "404",
+      "composite": null,
+      "survived": null
+    },
+    {
+      "model": "gemini-2.5-pro",
+      "provider": "google",
+      "seed": 450328,
+      "years": 20,
+      "error": "404",
+      "composite": null,
+      "survived": null
+    },
+    {
+      "model": "gemini-2.5-pro",
+      "provider": "google",
+      "seed": 280209,
+      "years": 20,
+      "error": "404",
+      "composite": null,
+      "survived": null
+    },
+    {
+      "model": "gemini-2.5-pro",
+      "provider": "google",
+      "seed": 30034,
+      "years": 60,
+      "error": "404",
+      "composite": null,
+      "survived": null
+    },
+    {
+      "model": "gemini-2.5-pro",
+      "provider": "google",
+      "seed": 210160,
+      "years": 60,
+      "error": "404",
+      "composite": null,
+      "survived": null
+    },
+    {
+      "model": "gemini-2.5-pro",
+      "provider": "google",
+      "seed": 330244,
+      "years": 60,
+      "error": "404",
+      "composite": null,
+      "survived": null
+    },
+    {
+      "model": "gemini-2.5-pro",
+      "provider": "google",
+      "seed": 240181,
+      "years": 120,
+      "error": "404",
+      "composite": null,
+      "survived": null
+    },
+    {
+      "model": "gemini-2.5-pro",
+      "provider": "google",
+      "seed": 440321,
+      "years": 120,
+      "error": "404",
+      "composite": null,
+      "survived": null
+    },
+    {
+      "model": "gemini-2.5-pro",
+      "provider": "google",
+      "seed": 200153,
+      "years": 120,
+      "error": "404",
+      "composite": null,
+      "survived": null
+    },
+    {
+      "model": "gemini-3-flash-preview",
+      "provider": "google",
+      "seed": 420307,
+      "years": 20,
+      "composite": -9,
+      "survived": true
+    },
+    {
+      "model": "gemini-3-flash-preview",
+      "provider": "google",
+      "seed": 450328,
+      "years": 20,
+      "composite": 43,
+      "survived": true
+    },
+    {
+      "model": "gemini-3-flash-preview",
+      "provider": "google",
+      "seed": 280209,
+      "years": 20,
+      "composite": -34,
+      "survived": true
+    },
+    {
+      "model": "gemini-3-flash-preview",
+      "provider": "google",
+      "seed": 30034,
+      "years": 60,
+      "composite": -18,
+      "survived": true
+    },
+    {
+      "model": "gemini-3-flash-preview",
+      "provider": "google",
+      "seed": 210160,
+      "years": 60,
+      "composite": -6,
+      "survived": true
+    },
+    {
+      "model": "gemini-3-flash-preview",
+      "provider": "google",
+      "seed": 330244,
+      "years": 60,
+      "composite": 13,
+      "survived": true
+    },
+    {
+      "model": "gemini-3-flash-preview",
+      "provider": "google",
+      "seed": 240181,
+      "years": 120,
+      "composite": 35,
+      "survived": true
+    },
+    {
+      "model": "gemini-3-flash-preview",
+      "provider": "google",
+      "seed": 440321,
+      "years": 120,
+      "composite": 2,
+      "survived": true
+    },
+    {
+      "model": "gemini-3-flash-preview",
+      "provider": "google",
+      "seed": 200153,
+      "years": 120,
+      "composite": 37,
+      "survived": true
+    },
+    {
+      "model": "meta-llama/llama-4-maverick",
+      "provider": "openrouter",
+      "seed": 420307,
+      "years": 20,
+      "composite": -3,
+      "survived": true
+    },
+    {
+      "model": "meta-llama/llama-4-maverick",
+      "provider": "openrouter",
+      "seed": 450328,
+      "years": 20,
+      "composite": 18,
+      "survived": true
+    },
+    {
+      "model": "meta-llama/llama-4-maverick",
+      "provider": "openrouter",
+      "seed": 280209,
+      "years": 20,
+      "composite": -13,
+      "survived": true
+    },
+    {
+      "model": "meta-llama/llama-4-maverick",
+      "provider": "openrouter",
+      "seed": 30034,
+      "years": 60,
+      "composite": -5,
+      "survived": true
+    },
+    {
+      "model": "meta-llama/llama-4-maverick",
+      "provider": "openrouter",
+      "seed": 210160,
+      "years": 60,
+      "composite": 26,
+      "survived": true
+    },
+    {
+      "model": "meta-llama/llama-4-maverick",
+      "provider": "openrouter",
+      "seed": 330244,
+      "years": 60,
+      "composite": 9,
+      "survived": true
+    },
+    {
+      "model": "meta-llama/llama-4-maverick",
+      "provider": "openrouter",
+      "seed": 240181,
+      "years": 120,
+      "composite": 71,
+      "survived": true
+    },
+    {
+      "model": "meta-llama/llama-4-maverick",
+      "provider": "openrouter",
+      "seed": 440321,
+      "years": 120,
+      "composite": 55,
+      "survived": true
+    },
+    {
+      "model": "meta-llama/llama-4-maverick",
+      "provider": "openrouter",
+      "seed": 200153,
+      "years": 120,
+      "composite": -9,
+      "survived": true
+    },
+    {
+      "model": "deepseek/deepseek-v3.2-exp",
+      "provider": "openrouter",
+      "seed": 420307,
+      "years": 20,
+      "composite": -24,
+      "survived": true
+    },
+    {
+      "model": "deepseek/deepseek-v3.2-exp",
+      "provider": "openrouter",
+      "seed": 450328,
+      "years": 20,
+      "composite": 22,
+      "survived": true
+    },
+    {
+      "model": "deepseek/deepseek-v3.2-exp",
+      "provider": "openrouter",
+      "seed": 280209,
+      "years": 20,
+      "composite": 4,
+      "survived": true
+    },
+    {
+      "model": "deepseek/deepseek-v3.2-exp",
+      "provider": "openrouter",
+      "seed": 30034,
+      "years": 60,
+      "composite": 3,
+      "survived": true
+    },
+    {
+      "model": "deepseek/deepseek-v3.2-exp",
+      "provider": "openrouter",
+      "seed": 210160,
+      "years": 60,
+      "composite": 35,
+      "survived": true
+    },
+    {
+      "model": "deepseek/deepseek-v3.2-exp",
+      "provider": "openrouter",
+      "seed": 330244,
+      "years": 60,
+      "composite": -42,
+      "survived": true
+    },
+    {
+      "model": "deepseek/deepseek-v3.2-exp",
+      "provider": "openrouter",
+      "seed": 240181,
+      "years": 120,
+      "composite": -250,
+      "survived": false
+    },
+    {
+      "model": "deepseek/deepseek-v3.2-exp",
+      "provider": "openrouter",
+      "seed": 440321,
+      "years": 120,
+      "composite": -38,
+      "survived": true
+    },
+    {
+      "model": "deepseek/deepseek-v3.2-exp",
+      "provider": "openrouter",
+      "seed": 200153,
+      "years": 120,
+      "composite": 15,
+      "survived": true
+    }
+  ]
+}

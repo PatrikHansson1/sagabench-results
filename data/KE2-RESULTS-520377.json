@@ -1,0 +1,42 @@
+{
+  "seed": 520377,
+  "design": "prereg PREREG-KNIFE-EDGE-2.md",
+  "runs": {
+    "opus-4-8": [
+      60,
+      -198,
+      -203,
+      -198,
+      -198
+    ],
+    "deepseek": [
+      -186,
+      108,
+      80,
+      92,
+      83
+    ],
+    "haiku-4-5": [
+      114,
+      89,
+      98,
+      -210,
+      -187
+    ],
+    "sonnet-5": [
+      100,
+      90,
+      -183,
+      92,
+      95
+    ]
+  },
+  "extinctions": {
+    "opus-4-8": 4,
+    "deepseek": 1,
+    "haiku-4-5": 2,
+    "sonnet-5": 1
+  },
+  "verdict": "MIXED (prereg rule 3): tails generalize (opus 4/5, deepseek 1/5) BUT controls also died (haiku 2/5, sonnet 1/5) -> the 240181 capability-separation does NOT reproduce; small-model immunity is 240181-specific",
+  "prereg_fisher_tail_vs_control": 0.65
+}
