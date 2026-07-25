@@ -39,4 +39,4 @@ The **verification engine build** (`emergence-engine-<version>.js`, eval-only li
 If a replay does not reproduce a published hash or score, that falsifies our claim — please open an issue. That is the standard we asked to be held to.
 
 ---
-*SagaBench AB · [sagabench.com](https://sagabench.com) · contact info@sagabench.com · repository github.com/SagaBench/results. Independent research. Not affiliated with, or endorsed by, any of the labs whose models appear in these results. Engine build for all results in this repo: `engineSha 4f237acf…` (full hash in each package).*
+*SagaBench AB · [sagabench.com](https://sagabench.com) · contact info@sagabench.com · repository github.com/PatrikHansson1/sagabench-results. Independent research. Not affiliated with, or endorsed by, any of the labs whose models appear in these results. Engine build for all results in this repo: `engineSha 4f237acf…` (full hash in each package).*
