@@ -3,12 +3,12 @@
   "engineSha_all_replays": "4f237acffa0cc76e6de29df8abb43db6519705d07b7b8b0439fae45f2dcad18e",
   "files": {
     "README.md": {
-      "sha256": "34eb04c621afdd7a21e176a55f79cf92de4dcb08b08aab1ca20b5d0db67a3f43",
-      "bytes": 3651
+      "sha256": "0781be75a332927b941d004ad5e4a85d12384d97eb23f61533e0c84280104276",
+      "bytes": 3829
     },
     "VERIFYING.md": {
-      "sha256": "48ce5107c2339cb279488d37b3336df525894e26b5607b90165172a3a8b5ea4c",
-      "bytes": 3738
+      "sha256": "08ddd16a4a45a1fa632f82ff986fd8a0595e3abec602b5a8710b20f0c37b2d0f",
+      "bytes": 4018
     },
     "data/B1-RESULTS-2026-07-23.json": {
       "sha256": "d3196152298ba6b01727808bf4cb1363416d7b62b3dc8bbba5ddc5013e54b1e3",

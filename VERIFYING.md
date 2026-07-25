@@ -20,7 +20,7 @@ Why this holds: the simulation's only randomness source is a seeded mulberry32 P
 
 ## 2. Verify in five steps (≈2 minutes, Node ≥ 18, no dependencies)
 
-1. **Obtain the verification build** (`emergence-engine-<version>.js`, eval-only license) plus `harness/prelude-hypot.js`, `harness/harness.js`, `saga-steward.js`, and the published golden/canon files.
+1. **Obtain the verification build** (`emergence-engine-<version>.js`, eval-only license) plus `harness/prelude-hypot.js`, `harness/harness.js`, `saga-steward.js`, and the published golden/canon files. *(The pinned engine build ships with the SagaBench v1 release and is not distributed yet. The replay packages, this protocol, and the scoring are public now, so every input, transcript, and hash is already auditable; end-to-end re-execution unlocks when the build is published.)*
 2. **Check the engine bytes:** `sha256sum emergence-engine-<version>.js` must equal `engineSha` from the replay package. If not, stop — you have the wrong build.
 3. **Replay:** load, in order, prelude → engine → harness → steward into one JS context; call `SagaSteward.runSteward(seed, ticks, edicts, founders)`.
 4. **Canonicalize & hash:** `sha256( EmergenceGolden.canonicalize(result.payload) )`.

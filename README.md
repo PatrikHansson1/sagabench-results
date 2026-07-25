@@ -24,7 +24,7 @@ Naming: `replays/<model>_<task>_<seed>.json`. Tasks: `crisis` (20y), `developmen
 
 The **world-generator, the knife-edge screening pipeline, and the hidden holdout seeds** are not disclosed; they are what keeps future evaluations unspoiled. Verification does not require them: published and public-world results replay directly from the packages in this repo, and hidden-world results (Private Seasons) run through a **sealed verifier** that confirms a replay without revealing the seed. Retired evaluation seeds are deposited publicly after rotation out of use, so our past remains auditable.
 
-The **verification engine build** (`emergence-engine-<version>.js`, eval-only license) and its harness are distributed per VERIFYING.md step 1.
+The **verification engine build** (`emergence-engine-<version>.js`, eval-only license) and its harness ship with the SagaBench v1 release, per VERIFYING.md step 1 — they are not distributed yet. Until then the replay packages, protocol, and scoring are public, so every input, transcript, and hash is already auditable.
 
 ## How to read the numbers
 
