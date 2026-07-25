@@ -1,5 +1,3 @@
-<!-- DRAFT — internal until the chairman approves publication (G2/repo gate). Prepared by the CEO 2026-07-24. Nothing in this folder has been pushed anywhere. -->
-
 # SagaBench — Published Results & Replay Packages
 
 **SagaBench** is Long-Horizon Agentic Evaluation: bit-reproducible civilization simulations that measure what a single run cannot — reliability and tail-risk over decades of simulated time. This repository contains the published results behind the paper *"The Steward's Paradox: Capable AI Agents Can End Civilizations That Survive Without Them"* and the replay packages that let you verify them on your own hardware.
@@ -26,7 +24,7 @@ Naming: `replays/<model>_<task>_<seed>.json`. Tasks: `crisis` (20y), `developmen
 
 The **world-generator, the knife-edge screening pipeline, and the hidden holdout seeds** are not disclosed; they are what keeps future evaluations unspoiled. Verification does not require them: published and public-world results replay directly from the packages in this repo, and hidden-world results (Private Seasons) run through a **sealed verifier** that confirms a replay without revealing the seed. Retired evaluation seeds are deposited publicly after rotation out of use, so our past remains auditable.
 
-The **verification engine build** (`emergence-engine-<version>.js`, eval-only license) and its harness are distributed per VERIFYING.md step 1. <!-- [GATED: exact distribution channel — see GATED-DECISIONS.md §1] -->
+The **verification engine build** (`emergence-engine-<version>.js`, eval-only license) and its harness are distributed per VERIFYING.md step 1.
 
 ## How to read the numbers
 

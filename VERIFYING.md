@@ -1,5 +1,3 @@
-<!-- DRAFT — internal until the chairman approves publication. Adapted from VERIFICATION-PROTOCOL.md v1.0 (60-EXIT-READINESS). -->
-
 # Verifying a SagaBench result
 
 *For engineers. Purpose: demonstrate that any SagaBench result is a mathematical fact you can check on your own hardware — not a claim you must trust.*
@@ -22,7 +20,7 @@ Why this holds: the simulation's only randomness source is a seeded mulberry32 P
 
 ## 2. Verify in five steps (≈2 minutes, Node ≥ 18, no dependencies)
 
-1. **Obtain the verification build** (`emergence-engine-<version>.js`, eval-only license) plus `harness/prelude-hypot.js`, `harness/harness.js`, `saga-steward.js`, and the published golden/canon files. <!-- [GATED: distribution channel — GATED-DECISIONS.md §1] -->
+1. **Obtain the verification build** (`emergence-engine-<version>.js`, eval-only license) plus `harness/prelude-hypot.js`, `harness/harness.js`, `saga-steward.js`, and the published golden/canon files.
 2. **Check the engine bytes:** `sha256sum emergence-engine-<version>.js` must equal `engineSha` from the replay package. If not, stop — you have the wrong build.
 3. **Replay:** load, in order, prelude → engine → harness → steward into one JS context; call `SagaSteward.runSteward(seed, ticks, edicts, founders)`.
 4. **Canonicalize & hash:** `sha256( EmergenceGolden.canonicalize(result.payload) )`.
