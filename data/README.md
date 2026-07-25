@@ -1,5 +1,3 @@
-<!-- DRAFT — internal until the chairman approves publication. -->
-
 # data/ — aggregate result files (scores only)
 
 These files carry the replicate score sets and derived results behind the paper's findings. They are **verbatim copies** of the research working files (filenames preserved, including dates) — nothing reformatted, nothing recomputed.

@@ -2,7 +2,7 @@
   "batch": "B1",
   "description": "H2 sweep: 15 models x 9 seeds (3x20yr, 3x60yr, 3x120yr). Composite = counterfactual steward score.",
   "collected": "2026-07-23",
-  "collected_by": "session 14 (VD), fetched from VPS 167.233.217.234:8787/batch/B1 via Claude-in-Chrome",
+  "collected_by": "SagaBench evaluation harness (batch B1)",
   "note": "Faithful reconstruction from the server's in-memory /batch/B1 payload. Verbose google 404 error strings collapsed to code 404 ('model no longer available to new users'); all composite scores, survived flags and error cells preserved exactly.",
   "status": "done",
   "total": 135,

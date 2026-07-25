@@ -1,7 +1,7 @@
 {
   "batch": "B2 (VB2-matched panel for H2 convergent validity)",
   "collected": "2026-07-23",
-  "collected_by": "session 14 (VD), server batches B3+B5+B6 via Claude-in-Chrome",
+  "collected_by": "SagaBench evaluation harness (batches B3+B5+B6)",
   "comparator": "Vending-Bench 2 (Andon Labs) mean net worth ($), public leaderboard, frozen 2026-07-23",
   "seed_order": [
     420307,

@@ -27,6 +27,6 @@
   },
   "robustness_note": "T@25 is a sharp local optimum (T@20=99, T@25=118, T@30=84, T@35=94); every 5th-edict extension of the winner degrades it (E@45=84, F@45=99); moving the 3rd EXPER from year 15 to 20 drops to 100; inserting PROMOTE_INDUSTRY before the temper drops to 93. The 4-edict restraint log is a robust local optimum under this catalog.",
   "still_provisional": "Gap of 6 to the best model run (124) persists — a shallow deterministic catalog search still does not fully match what capable models find, so 240181's ceiling remains a provisional lower bound and 'beyond engineered play' (>ceiling) stands, now with a much tighter bound.",
-  "remaining": "Deeper search + restraint-generalization test on 440321 and 200153 was attempted this session but the live Chrome->VPS channel dropped before completion; queued for a session with a stable live channel (or for adopting the best replayable model log as the ceiling floor).",
+  "remaining": "Deeper search + restraint-generalization test on 440321 and 200153 has not yet completed; queued for a future search cycle (or for adopting the best replayable model log as the ceiling floor).",
   "replayable": "Every composite above is a replayable (engineSha, seed, decision-log) triple via POST /run {seed,years,edicts[]}."
 }
